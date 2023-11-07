@@ -1,0 +1,8 @@
+path: '/Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets' # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/train  # val images (relative to 'path')
+
+# Classes
+names:
+  0: knife
+  1: gun

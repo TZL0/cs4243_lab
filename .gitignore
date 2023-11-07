@@ -7,3 +7,10 @@ miniproject/drive-download-20230925T130828Z-003
 *.keras
 *.h5
 Python_notebooks/set4/OF_samples
+*.png
+miniproject/jizhuo1105/datasets
+miniproject/weapon_detection_004/labels
+miniproject/weapon_detection_004/runs
+*.pt
+miniproject/jizhuo1105/runs
+miniproject/runs

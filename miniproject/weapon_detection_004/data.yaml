@@ -1,0 +1,5 @@
+train: /Users/tianze/cs4243_lab/miniproject/weapon_detection_004/images/train
+val: /Users/tianze/cs4243_lab/miniproject/weapon_detection_004/images/val
+
+nc: 2
+names: ['knife', 'gun']
