@@ -1,0 +1,1270 @@
+
+Ultralytics YOLOv8.0.203 🚀 Python-3.10.9 torch-2.1.0 CPU (Apple M1)
+Model summary (fused): 168 layers, 11126358 parameters, 0 gradients, 28.4 GFLOPs
+image 1/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0227648U_normal_2222_80.png: 384x640 (no detections), 93.8ms
+image 2/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0227648U_normal_4444_180.png: 384x640 1 gun, 90.2ms
+image 3/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0227648U_normal_4444_200.png: 384x640 2 guns, 88.9ms
+image 4/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0227648U_normal_5555_140.png: 384x640 (no detections), 88.6ms
+image 5/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0227648U_normal_5555_180.png: 384x640 (no detections), 93.9ms
+image 6/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0227648U_normal_5555_200.png: 384x640 (no detections), 90.4ms
+image 7/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0227648U_normal_5555_220.png: 384x640 (no detections), 92.6ms
+image 8/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0227648U_normal_5555_260.png: 384x640 (no detections), 96.4ms
+image 9/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0227648U_normal_5555_80.png: 384x640 (no detections), 95.4ms
+image 10/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0242121B_20220904_normal_0006_120.png: 576x640 (no detections), 140.1ms
+image 11/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0242121B_20220904_normal_0006_160.png: 576x640 (no detections), 140.0ms
+image 12/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0250662J_20220904_normal_2475_320.png: 384x640 2 guns, 94.3ms
+image 13/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0250662J_20220904_normal_2480_560.png: 384x640 (no detections), 95.4ms
+image 14/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0250662J_20220904_normal_2480_580.png: 384x640 (no detections), 99.4ms
+image 15/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0250662J_20220904_normal_2480_600.png: 384x640 (no detections), 98.8ms
+image 16/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0250662J_20220904_normal_2480_620.png: 384x640 (no detections), 99.1ms
+image 17/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0250662J_20220904_normal_2480_640.png: 384x640 (no detections), 100.4ms
+image 18/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0250662J_20220904_normal_2480_660.png: 384x640 (no detections), 94.7ms
+image 19/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0250662J_20220904_normal_2480_680.png: 384x640 (no detections), 93.5ms
+image 20/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0250662J_20220904_normal_2480_700.png: 384x640 (no detections), 93.5ms
+image 21/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0250662J_20220904_normal_2480_720.png: 384x640 (no detections), 92.2ms
+image 22/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0021_100.png: 640x384 (no detections), 92.3ms
+image 23/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0021_120.png: 640x384 (no detections), 94.0ms
+image 24/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0021_140.png: 640x384 (no detections), 97.4ms
+image 25/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0021_160.png: 640x384 (no detections), 95.6ms
+image 26/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0021_180.png: 640x384 (no detections), 97.7ms
+image 27/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0021_200.png: 640x384 (no detections), 95.4ms
+image 28/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0021_220.png: 640x384 (no detections), 93.9ms
+image 29/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0021_240.png: 640x384 (no detections), 95.3ms
+image 30/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0021_260.png: 640x384 (no detections), 97.4ms
+image 31/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0021_280.png: 640x384 (no detections), 96.0ms
+image 32/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0021_300.png: 640x384 (no detections), 97.1ms
+image 33/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0021_320.png: 640x384 (no detections), 96.3ms
+image 34/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0021_340.png: 640x384 (no detections), 97.6ms
+image 35/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0021_360.png: 640x384 (no detections), 94.1ms
+image 36/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0021_380.png: 640x384 (no detections), 93.7ms
+image 37/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0021_400.png: 640x384 (no detections), 91.6ms
+image 38/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0021_80.png: 640x384 (no detections), 90.9ms
+image 39/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0022_100.png: 640x320 (no detections), 80.8ms
+image 40/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0022_120.png: 640x320 (no detections), 82.3ms
+image 41/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0022_140.png: 640x320 (no detections), 81.7ms
+image 42/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0022_160.png: 640x320 (no detections), 85.9ms
+image 43/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0022_180.png: 640x320 (no detections), 84.9ms
+image 44/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0022_200.png: 640x320 (no detections), 87.1ms
+image 45/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0022_220.png: 640x320 (no detections), 90.0ms
+image 46/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0022_240.png: 640x320 (no detections), 86.6ms
+image 47/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0022_80.png: 640x320 (no detections), 87.2ms
+image 48/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_100.png: 640x480 (no detections), 120.6ms
+image 49/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_120.png: 640x480 (no detections), 118.0ms
+image 50/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_140.png: 640x480 (no detections), 119.2ms
+image 51/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_160.png: 640x480 (no detections), 117.4ms
+image 52/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_180.png: 640x480 (no detections), 115.0ms
+image 53/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_200.png: 640x480 (no detections), 115.9ms
+image 54/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_220.png: 640x480 (no detections), 115.2ms
+image 55/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_240.png: 640x480 (no detections), 114.4ms
+image 56/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_260.png: 640x480 (no detections), 117.8ms
+image 57/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_280.png: 640x480 (no detections), 120.0ms
+image 58/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_300.png: 640x480 (no detections), 119.6ms
+image 59/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_320.png: 640x480 (no detections), 121.7ms
+image 60/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_340.png: 640x480 (no detections), 119.2ms
+image 61/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_360.png: 640x480 (no detections), 121.4ms
+image 62/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_380.png: 640x480 (no detections), 121.7ms
+image 63/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_400.png: 640x480 (no detections), 121.8ms
+image 64/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_420.png: 640x480 (no detections), 118.6ms
+image 65/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_440.png: 640x480 (no detections), 116.6ms
+image 66/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_460.png: 640x480 (no detections), 114.0ms
+image 67/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_480.png: 640x480 (no detections), 117.0ms
+image 68/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_500.png: 640x480 (no detections), 115.2ms
+image 69/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_520.png: 640x480 (no detections), 121.9ms
+image 70/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_540.png: 640x480 1 gun, 121.1ms
+image 71/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_560.png: 640x480 (no detections), 117.7ms
+image 72/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_580.png: 640x480 (no detections), 121.9ms
+image 73/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_600.png: 640x480 1 gun, 119.2ms
+image 74/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_620.png: 640x480 (no detections), 126.7ms
+image 75/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_640.png: 640x480 (no detections), 146.8ms
+image 76/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_660.png: 640x480 (no detections), 165.7ms
+image 77/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_680.png: 640x480 (no detections), 130.7ms
+image 78/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_700.png: 640x480 (no detections), 140.9ms
+image 79/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_720.png: 640x480 (no detections), 134.7ms
+image 80/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_740.png: 640x480 (no detections), 129.6ms
+image 81/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0023_80.png: 640x480 (no detections), 127.1ms
+image 82/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_100.png: 320x640 (no detections), 86.7ms
+image 83/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_120.png: 320x640 (no detections), 88.1ms
+image 84/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_140.png: 320x640 (no detections), 87.4ms
+image 85/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_160.png: 320x640 (no detections), 83.5ms
+image 86/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_180.png: 320x640 (no detections), 85.7ms
+image 87/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_200.png: 320x640 (no detections), 87.0ms
+image 88/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_220.png: 320x640 (no detections), 92.3ms
+image 89/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_240.png: 320x640 (no detections), 92.5ms
+image 90/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_260.png: 320x640 (no detections), 90.0ms
+image 91/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_280.png: 320x640 (no detections), 100.8ms
+image 92/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_300.png: 320x640 (no detections), 97.9ms
+image 93/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_320.png: 320x640 (no detections), 87.6ms
+image 94/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_340.png: 320x640 (no detections), 91.4ms
+image 95/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_360.png: 320x640 (no detections), 81.8ms
+image 96/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_380.png: 320x640 (no detections), 84.6ms
+image 97/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_400.png: 320x640 (no detections), 81.7ms
+image 98/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_420.png: 320x640 (no detections), 83.0ms
+image 99/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_440.png: 320x640 (no detections), 82.4ms
+image 100/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_460.png: 320x640 (no detections), 84.1ms
+image 101/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_480.png: 320x640 (no detections), 83.5ms
+image 102/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_500.png: 320x640 (no detections), 90.4ms
+image 103/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_520.png: 320x640 (no detections), 91.8ms
+image 104/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_540.png: 320x640 (no detections), 89.2ms
+image 105/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_560.png: 320x640 (no detections), 87.9ms
+image 106/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_580.png: 320x640 (no detections), 84.4ms
+image 107/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_600.png: 320x640 (no detections), 85.3ms
+image 108/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_620.png: 320x640 (no detections), 86.9ms
+image 109/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0024_80.png: 320x640 (no detections), 86.1ms
+image 110/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0025_100.png: 384x640 (no detections), 97.1ms
+image 111/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0025_120.png: 384x640 (no detections), 99.8ms
+image 112/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0025_140.png: 384x640 (no detections), 94.6ms
+image 113/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0025_160.png: 384x640 (no detections), 94.4ms
+image 114/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0025_180.png: 384x640 (no detections), 97.3ms
+image 115/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0025_200.png: 384x640 (no detections), 96.6ms
+image 116/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0025_220.png: 384x640 (no detections), 99.4ms
+image 117/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0025_240.png: 384x640 (no detections), 99.3ms
+image 118/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0025_260.png: 384x640 (no detections), 96.0ms
+image 119/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0025_280.png: 384x640 (no detections), 98.5ms
+image 120/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0025_80.png: 384x640 (no detections), 98.4ms
+image 121/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0026_400.png: 352x640 (no detections), 93.4ms
+image 122/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0026_420.png: 352x640 (no detections), 98.4ms
+image 123/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0026_440.png: 352x640 (no detections), 98.9ms
+image 124/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0026_460.png: 352x640 (no detections), 100.7ms
+image 125/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0026_480.png: 352x640 (no detections), 106.3ms
+image 126/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0026_500.png: 352x640 (no detections), 105.4ms
+image 127/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0026_520.png: 352x640 (no detections), 105.0ms
+image 128/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0026_540.png: 352x640 (no detections), 106.3ms
+image 129/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0026_560.png: 352x640 (no detections), 103.1ms
+image 130/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_100.png: 640x384 (no detections), 106.4ms
+image 131/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_120.png: 640x384 (no detections), 102.5ms
+image 132/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_140.png: 640x384 (no detections), 96.6ms
+image 133/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_160.png: 640x384 (no detections), 97.4ms
+image 134/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_180.png: 640x384 (no detections), 96.6ms
+image 135/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_200.png: 640x384 (no detections), 96.5ms
+image 136/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_220.png: 640x384 (no detections), 98.2ms
+image 137/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_240.png: 640x384 (no detections), 96.3ms
+image 138/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_260.png: 640x384 (no detections), 95.8ms
+image 139/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_280.png: 640x384 (no detections), 99.3ms
+image 140/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_300.png: 640x384 (no detections), 104.6ms
+image 141/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_320.png: 640x384 1 gun, 101.9ms
+image 142/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_340.png: 640x384 1 gun, 98.6ms
+image 143/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_360.png: 640x384 (no detections), 95.7ms
+image 144/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_380.png: 640x384 (no detections), 98.8ms
+image 145/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_400.png: 640x384 (no detections), 100.2ms
+image 146/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_420.png: 640x384 (no detections), 97.3ms
+image 147/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_440.png: 640x384 (no detections), 99.2ms
+image 148/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_460.png: 640x384 (no detections), 98.9ms
+image 149/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_480.png: 640x384 1 gun, 96.4ms
+image 150/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_500.png: 640x384 (no detections), 111.5ms
+image 151/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_520.png: 640x384 (no detections), 103.9ms
+image 152/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_540.png: 640x384 (no detections), 98.4ms
+image 153/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_560.png: 640x384 (no detections), 97.4ms
+image 154/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_580.png: 640x384 (no detections), 97.6ms
+image 155/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_600.png: 640x384 1 gun, 102.8ms
+image 156/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_620.png: 640x384 (no detections), 97.8ms
+image 157/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_640.png: 640x384 (no detections), 101.0ms
+image 158/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_660.png: 640x384 1 gun, 98.6ms
+image 159/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_680.png: 640x384 (no detections), 98.7ms
+image 160/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_700.png: 640x384 (no detections), 97.7ms
+image 161/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_720.png: 640x384 (no detections), 99.3ms
+image 162/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_740.png: 640x384 (no detections), 98.3ms
+image 163/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254360L_20220904_normal_0027_80.png: 640x384 1 gun, 97.5ms
+image 164/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0000_100.png: 352x640 (no detections), 91.0ms
+image 165/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0000_120.png: 352x640 (no detections), 93.0ms
+image 166/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0000_140.png: 352x640 (no detections), 88.7ms
+image 167/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0000_160.png: 352x640 (no detections), 91.2ms
+image 168/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0000_180.png: 352x640 (no detections), 89.9ms
+image 169/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0000_200.png: 352x640 (no detections), 94.1ms
+image 170/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0000_220.png: 352x640 1 gun, 92.4ms
+image 171/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0000_240.png: 352x640 (no detections), 89.8ms
+image 172/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0000_260.png: 352x640 (no detections), 90.7ms
+image 173/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0000_280.png: 352x640 1 gun, 90.9ms
+image 174/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0000_80.png: 352x640 (no detections), 94.3ms
+image 175/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0001_100.png: 352x640 1 gun, 93.3ms
+image 176/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0001_120.png: 352x640 1 gun, 92.9ms
+image 177/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0001_140.png: 352x640 (no detections), 92.4ms
+image 178/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0001_160.png: 352x640 1 gun, 94.6ms
+image 179/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0001_180.png: 352x640 (no detections), 92.0ms
+image 180/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0001_200.png: 352x640 1 gun, 91.9ms
+image 181/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0001_220.png: 352x640 3 guns, 89.0ms
+image 182/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0001_240.png: 352x640 1 gun, 87.9ms
+image 183/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0001_260.png: 352x640 1 gun, 88.9ms
+image 184/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0001_280.png: 352x640 1 gun, 89.8ms
+image 185/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0001_300.png: 352x640 (no detections), 89.6ms
+image 186/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0001_80.png: 352x640 (no detections), 89.0ms
+image 187/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0002_100.png: 384x640 2 guns, 94.7ms
+image 188/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0002_120.png: 384x640 3 guns, 95.0ms
+image 189/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0002_140.png: 384x640 3 guns, 94.3ms
+image 190/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0002_160.png: 384x640 (no detections), 93.2ms
+image 191/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0002_180.png: 384x640 (no detections), 94.6ms
+image 192/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0002_200.png: 384x640 (no detections), 93.6ms
+image 193/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0002_220.png: 384x640 (no detections), 93.6ms
+image 194/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0002_240.png: 384x640 (no detections), 94.9ms
+image 195/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0002_260.png: 384x640 (no detections), 95.6ms
+image 196/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0002_280.png: 384x640 (no detections), 92.9ms
+image 197/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0002_300.png: 384x640 1 gun, 95.4ms
+image 198/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0002_320.png: 384x640 (no detections), 96.1ms
+image 199/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0002_80.png: 384x640 2 guns, 94.8ms
+image 200/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0003_100.png: 640x416 (no detections), 103.0ms
+image 201/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0003_120.png: 640x416 (no detections), 106.0ms
+image 202/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0003_140.png: 640x416 (no detections), 102.7ms
+image 203/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0003_160.png: 640x416 (no detections), 106.5ms
+image 204/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0003_180.png: 640x416 (no detections), 105.1ms
+image 205/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0003_200.png: 640x416 (no detections), 104.7ms
+image 206/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0003_220.png: 640x416 (no detections), 102.7ms
+image 207/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0003_240.png: 640x416 (no detections), 110.7ms
+image 208/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0003_260.png: 640x416 (no detections), 105.6ms
+image 209/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0003_280.png: 640x416 (no detections), 107.5ms
+image 210/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0003_80.png: 640x416 (no detections), 104.3ms
+image 211/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0004_100.png: 416x640 3 guns, 107.3ms
+image 212/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0004_120.png: 416x640 3 guns, 103.0ms
+image 213/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0004_140.png: 416x640 3 guns, 105.6ms
+image 214/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0004_160.png: 416x640 1 gun, 104.4ms
+image 215/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0004_180.png: 416x640 2 guns, 102.1ms
+image 216/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0004_200.png: 416x640 (no detections), 104.0ms
+image 217/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0004_220.png: 416x640 1 gun, 105.0ms
+image 218/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0004_240.png: 416x640 1 gun, 102.2ms
+image 219/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0004_260.png: 416x640 (no detections), 103.6ms
+image 220/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0004_280.png: 416x640 (no detections), 104.6ms
+image 221/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0004_300.png: 416x640 (no detections), 102.3ms
+image 222/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0004_320.png: 416x640 3 guns, 104.2ms
+image 223/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0004_80.png: 416x640 3 guns, 104.2ms
+image 224/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0005_100.png: 384x640 (no detections), 94.4ms
+image 225/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0005_120.png: 384x640 (no detections), 93.4ms
+image 226/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0005_140.png: 384x640 1 gun, 94.0ms
+image 227/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0005_160.png: 384x640 (no detections), 93.7ms
+image 228/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0005_180.png: 384x640 (no detections), 93.3ms
+image 229/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0005_200.png: 384x640 (no detections), 95.3ms
+image 230/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0005_220.png: 384x640 (no detections), 91.8ms
+image 231/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0005_240.png: 384x640 1 gun, 93.2ms
+image 232/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0005_260.png: 384x640 (no detections), 93.8ms
+image 233/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0005_80.png: 384x640 1 gun, 96.1ms
+image 234/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0006_100.png: 384x640 (no detections), 98.1ms
+image 235/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0006_120.png: 384x640 (no detections), 92.8ms
+image 236/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0006_140.png: 384x640 (no detections), 91.6ms
+image 237/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0006_160.png: 384x640 1 knife, 96.0ms
+image 238/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0006_180.png: 384x640 (no detections), 92.5ms
+image 239/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0006_200.png: 384x640 (no detections), 91.9ms
+image 240/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0006_220.png: 384x640 (no detections), 92.2ms
+image 241/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0006_240.png: 384x640 (no detections), 97.3ms
+image 242/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0006_260.png: 384x640 (no detections), 93.3ms
+image 243/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0006_280.png: 384x640 (no detections), 93.5ms
+image 244/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0006_300.png: 384x640 1 gun, 95.3ms
+image 245/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0006_320.png: 384x640 (no detections), 93.3ms
+image 246/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0006_340.png: 384x640 (no detections), 93.1ms
+image 247/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0254392B_20220904_normal_0006_80.png: 384x640 (no detections), 92.2ms
+image 248/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_0021_100.png: 384x640 (no detections), 93.1ms
+image 249/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_0021_120.png: 384x640 (no detections), 96.6ms
+image 250/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_0021_140.png: 384x640 (no detections), 99.5ms
+image 251/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_0021_160.png: 384x640 (no detections), 96.3ms
+image 252/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_0021_180.png: 384x640 (no detections), 94.3ms
+image 253/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_0021_200.png: 384x640 (no detections), 97.1ms
+image 254/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_0021_220.png: 384x640 (no detections), 96.3ms
+image 255/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_0021_80.png: 384x640 (no detections), 98.8ms
+image 256/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_0920_100.png: 352x640 (no detections), 89.5ms
+image 257/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_0920_120.png: 352x640 (no detections), 91.7ms
+image 258/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_0920_140.png: 352x640 (no detections), 92.8ms
+image 259/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_0920_160.png: 352x640 (no detections), 92.9ms
+image 260/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_0920_80.png: 352x640 (no detections), 90.9ms
+image 261/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_100.png: 384x640 (no detections), 93.6ms
+image 262/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_120.png: 384x640 (no detections), 89.1ms
+image 263/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_140.png: 384x640 (no detections), 92.4ms
+image 264/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_160.png: 384x640 1 gun, 89.2ms
+image 265/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_180.png: 384x640 1 gun, 88.5ms
+image 266/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_200.png: 384x640 1 gun, 90.0ms
+image 267/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_220.png: 384x640 1 gun, 103.3ms
+image 268/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_240.png: 384x640 (no detections), 89.2ms
+image 269/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_260.png: 384x640 (no detections), 90.7ms
+image 270/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_280.png: 384x640 (no detections), 88.9ms
+image 271/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_300.png: 384x640 (no detections), 91.5ms
+image 272/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_320.png: 384x640 (no detections), 91.4ms
+image 273/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_340.png: 384x640 (no detections), 94.3ms
+image 274/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_360.png: 384x640 (no detections), 89.1ms
+image 275/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_380.png: 384x640 (no detections), 90.5ms
+image 276/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_400.png: 384x640 (no detections), 91.9ms
+image 277/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_420.png: 384x640 (no detections), 88.6ms
+image 278/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_440.png: 384x640 (no detections), 91.7ms
+image 279/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_460.png: 384x640 (no detections), 92.8ms
+image 280/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_480.png: 384x640 (no detections), 93.7ms
+image 281/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_500.png: 384x640 (no detections), 91.2ms
+image 282/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_520.png: 384x640 (no detections), 92.0ms
+image 283/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_540.png: 384x640 (no detections), 88.0ms
+image 284/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_560.png: 384x640 (no detections), 88.4ms
+image 285/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_580.png: 384x640 (no detections), 88.3ms
+image 286/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_600.png: 384x640 (no detections), 89.5ms
+image 287/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_1278_80.png: 384x640 (no detections), 90.6ms
+image 288/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_3367_100.png: 384x640 (no detections), 95.0ms
+image 289/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_3367_120.png: 384x640 (no detections), 101.0ms
+image 290/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_3367_140.png: 384x640 1 gun, 101.9ms
+image 291/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_3367_160.png: 384x640 (no detections), 100.8ms
+image 292/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_3367_80.png: 384x640 (no detections), 108.3ms
+image 293/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_3888_100.png: 384x640 (no detections), 104.7ms
+image 294/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_3888_120.png: 384x640 (no detections), 99.7ms
+image 295/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_3888_140.png: 384x640 (no detections), 121.0ms
+image 296/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_3888_80.png: 384x640 1 gun, 98.2ms
+image 297/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_100.png: 384x640 (no detections), 94.4ms
+image 298/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_120.png: 384x640 (no detections), 95.7ms
+image 299/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_140.png: 384x640 (no detections), 99.4ms
+image 300/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_160.png: 384x640 (no detections), 93.6ms
+image 301/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_180.png: 384x640 (no detections), 97.0ms
+image 302/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_200.png: 384x640 (no detections), 98.4ms
+image 303/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_220.png: 384x640 (no detections), 93.2ms
+image 304/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_240.png: 384x640 (no detections), 93.6ms
+image 305/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_260.png: 384x640 (no detections), 96.3ms
+image 306/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_280.png: 384x640 (no detections), 103.3ms
+image 307/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_300.png: 384x640 (no detections), 108.0ms
+image 308/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_320.png: 384x640 (no detections), 110.9ms
+image 309/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_340.png: 384x640 (no detections), 105.0ms
+image 310/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_360.png: 384x640 (no detections), 101.2ms
+image 311/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_380.png: 384x640 (no detections), 99.0ms
+image 312/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_400.png: 384x640 (no detections), 98.5ms
+image 313/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_420.png: 384x640 (no detections), 103.7ms
+image 314/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_440.png: 384x640 (no detections), 106.0ms
+image 315/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4449_80.png: 384x640 (no detections), 109.0ms
+image 316/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_100.png: 384x640 2 guns, 103.6ms
+image 317/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_120.png: 384x640 2 guns, 112.7ms
+image 318/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_140.png: 384x640 2 guns, 115.7ms
+image 319/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_160.png: 384x640 2 guns, 106.4ms
+image 320/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_180.png: 384x640 1 gun, 98.9ms
+image 321/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_200.png: 384x640 1 gun, 93.8ms
+image 322/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_220.png: 384x640 2 guns, 91.8ms
+image 323/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_240.png: 384x640 2 guns, 98.7ms
+image 324/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_260.png: 384x640 1 gun, 103.7ms
+image 325/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_280.png: 384x640 2 guns, 103.2ms
+image 326/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_300.png: 384x640 2 guns, 95.0ms
+image 327/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_320.png: 384x640 3 guns, 106.9ms
+image 328/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_340.png: 384x640 2 guns, 102.7ms
+image 329/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_360.png: 384x640 2 guns, 97.1ms
+image 330/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_380.png: 384x640 1 gun, 94.2ms
+image 331/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_400.png: 384x640 3 guns, 91.0ms
+image 332/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_420.png: 384x640 1 gun, 95.5ms
+image 333/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_440.png: 384x640 1 gun, 95.1ms
+image 334/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_460.png: 384x640 2 guns, 94.6ms
+image 335/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_480.png: 384x640 1 gun, 92.7ms
+image 336/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_500.png: 384x640 (no detections), 92.2ms
+image 337/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_520.png: 384x640 (no detections), 95.1ms
+image 338/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260551M_20220904_normal_4482_80.png: 384x640 1 gun, 90.2ms
+image 339/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_100.png: 384x640 (no detections), 94.5ms
+image 340/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_120.png: 384x640 (no detections), 98.6ms
+image 341/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_140.png: 384x640 (no detections), 98.7ms
+image 342/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_160.png: 384x640 (no detections), 98.2ms
+image 343/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_180.png: 384x640 (no detections), 103.9ms
+image 344/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_200.png: 384x640 (no detections), 96.8ms
+image 345/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_220.png: 384x640 (no detections), 99.9ms
+image 346/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_240.png: 384x640 (no detections), 94.7ms
+image 347/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_260.png: 384x640 (no detections), 94.7ms
+image 348/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_280.png: 384x640 (no detections), 99.3ms
+image 349/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_300.png: 384x640 (no detections), 98.7ms
+image 350/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_320.png: 384x640 (no detections), 95.3ms
+image 351/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_340.png: 384x640 (no detections), 96.7ms
+image 352/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_360.png: 384x640 (no detections), 97.3ms
+image 353/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_380.png: 384x640 (no detections), 104.8ms
+image 354/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_400.png: 384x640 (no detections), 98.6ms
+image 355/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_420.png: 384x640 (no detections), 100.3ms
+image 356/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_440.png: 384x640 (no detections), 100.7ms
+image 357/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_460.png: 384x640 (no detections), 98.0ms
+image 358/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_480.png: 384x640 (no detections), 99.0ms
+image 359/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_500.png: 384x640 (no detections), 98.5ms
+image 360/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_520.png: 384x640 (no detections), 96.9ms
+image 361/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_540.png: 384x640 (no detections), 97.5ms
+image 362/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_560.png: 384x640 (no detections), 101.2ms
+image 363/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_580.png: 384x640 (no detections), 99.9ms
+image 364/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_600.png: 384x640 (no detections), 103.2ms
+image 365/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_620.png: 384x640 (no detections), 96.5ms
+image 366/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_640.png: 384x640 (no detections), 102.4ms
+image 367/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9079_80.png: 384x640 (no detections), 100.8ms
+image 368/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9089_100.png: 384x640 (no detections), 99.8ms
+image 369/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9089_120.png: 384x640 (no detections), 95.1ms
+image 370/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9089_140.png: 384x640 (no detections), 96.7ms
+image 371/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9089_160.png: 384x640 (no detections), 99.1ms
+image 372/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9089_180.png: 384x640 (no detections), 98.6ms
+image 373/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9089_200.png: 384x640 (no detections), 96.8ms
+image 374/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9089_220.png: 384x640 (no detections), 96.7ms
+image 375/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9089_240.png: 384x640 (no detections), 96.1ms
+image 376/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9089_260.png: 384x640 (no detections), 98.2ms
+image 377/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9089_280.png: 384x640 (no detections), 94.5ms
+image 378/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9089_80.png: 384x640 (no detections), 95.3ms
+image 379/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9099_100.png: 384x640 (no detections), 95.9ms
+image 380/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9099_120.png: 384x640 (no detections), 96.1ms
+image 381/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9099_140.png: 384x640 (no detections), 100.0ms
+image 382/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9099_160.png: 384x640 (no detections), 99.3ms
+image 383/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9099_180.png: 384x640 (no detections), 100.1ms
+image 384/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9099_200.png: 384x640 (no detections), 98.8ms
+image 385/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9099_220.png: 384x640 (no detections), 95.3ms
+image 386/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9099_240.png: 384x640 (no detections), 97.3ms
+image 387/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9099_260.png: 384x640 (no detections), 93.0ms
+image 388/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9099_280.png: 384x640 (no detections), 93.2ms
+image 389/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9099_300.png: 384x640 (no detections), 94.4ms
+image 390/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9099_320.png: 384x640 (no detections), 96.0ms
+image 391/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9099_340.png: 384x640 (no detections), 95.1ms
+image 392/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9099_360.png: 384x640 (no detections), 99.6ms
+image 393/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9099_80.png: 384x640 (no detections), 98.7ms
+image 394/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_100.png: 384x640 (no detections), 99.4ms
+image 395/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_120.png: 384x640 (no detections), 94.8ms
+image 396/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_140.png: 384x640 (no detections), 90.4ms
+image 397/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_160.png: 384x640 (no detections), 92.9ms
+image 398/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_180.png: 384x640 (no detections), 90.3ms
+image 399/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_200.png: 384x640 (no detections), 94.6ms
+image 400/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_220.png: 384x640 (no detections), 93.1ms
+image 401/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_240.png: 384x640 (no detections), 90.0ms
+image 402/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_260.png: 384x640 (no detections), 93.2ms
+image 403/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_280.png: 384x640 (no detections), 94.5ms
+image 404/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_300.png: 384x640 (no detections), 92.7ms
+image 405/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_320.png: 384x640 (no detections), 90.0ms
+image 406/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_340.png: 384x640 1 gun, 94.5ms
+image 407/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_360.png: 384x640 (no detections), 92.6ms
+image 408/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_380.png: 384x640 (no detections), 92.2ms
+image 409/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_400.png: 384x640 1 gun, 90.2ms
+image 410/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_420.png: 384x640 1 gun, 90.2ms
+image 411/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_440.png: 384x640 1 gun, 94.8ms
+image 412/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_460.png: 384x640 1 gun, 93.3ms
+image 413/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_480.png: 384x640 1 gun, 93.7ms
+image 414/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_500.png: 384x640 1 gun, 94.9ms
+image 415/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_520.png: 384x640 (no detections), 93.4ms
+image 416/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_540.png: 384x640 (no detections), 91.8ms
+image 417/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_560.png: 384x640 (no detections), 94.3ms
+image 418/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9109_80.png: 384x640 (no detections), 89.6ms
+image 419/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_100.png: 384x640 (no detections), 92.0ms
+image 420/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_120.png: 384x640 (no detections), 95.1ms
+image 421/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_140.png: 384x640 (no detections), 94.6ms
+image 422/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_160.png: 384x640 (no detections), 96.9ms
+image 423/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_180.png: 384x640 (no detections), 92.2ms
+image 424/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_200.png: 384x640 1 gun, 96.2ms
+image 425/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_220.png: 384x640 (no detections), 94.5ms
+image 426/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_240.png: 384x640 1 gun, 95.1ms
+image 427/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_260.png: 384x640 (no detections), 90.4ms
+image 428/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_280.png: 384x640 (no detections), 88.4ms
+image 429/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_300.png: 384x640 1 gun, 88.9ms
+image 430/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_320.png: 384x640 (no detections), 89.7ms
+image 431/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_340.png: 384x640 (no detections), 90.0ms
+image 432/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_360.png: 384x640 (no detections), 94.5ms
+image 433/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_380.png: 384x640 (no detections), 95.5ms
+image 434/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_400.png: 384x640 (no detections), 93.5ms
+image 435/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_420.png: 384x640 (no detections), 92.6ms
+image 436/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_440.png: 384x640 (no detections), 94.0ms
+image 437/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_460.png: 384x640 (no detections), 99.0ms
+image 438/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9119_80.png: 384x640 (no detections), 95.2ms
+image 439/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_100.png: 384x640 (no detections), 93.0ms
+image 440/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_120.png: 384x640 (no detections), 126.0ms
+image 441/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_140.png: 384x640 (no detections), 154.4ms
+image 442/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_160.png: 384x640 (no detections), 383.8ms
+image 443/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_180.png: 384x640 (no detections), 268.6ms
+image 444/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_200.png: 384x640 (no detections), 203.1ms
+image 445/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_220.png: 384x640 (no detections), 303.9ms
+image 446/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_240.png: 384x640 (no detections), 137.9ms
+image 447/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_260.png: 384x640 (no detections), 93.5ms
+image 448/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_280.png: 384x640 (no detections), 96.6ms
+image 449/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_300.png: 384x640 (no detections), 93.0ms
+image 450/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_320.png: 384x640 (no detections), 92.5ms
+image 451/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_340.png: 384x640 (no detections), 89.6ms
+image 452/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_360.png: 384x640 (no detections), 97.9ms
+image 453/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_380.png: 384x640 (no detections), 92.9ms
+image 454/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_400.png: 384x640 (no detections), 95.1ms
+image 455/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_420.png: 384x640 (no detections), 92.8ms
+image 456/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_440.png: 384x640 (no detections), 93.9ms
+image 457/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_460.png: 384x640 (no detections), 93.1ms
+image 458/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_480.png: 384x640 (no detections), 93.4ms
+image 459/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_500.png: 384x640 (no detections), 93.0ms
+image 460/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_520.png: 384x640 (no detections), 95.2ms
+image 461/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_540.png: 384x640 (no detections), 93.4ms
+image 462/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_560.png: 384x640 (no detections), 94.1ms
+image 463/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_580.png: 384x640 (no detections), 93.8ms
+image 464/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_600.png: 384x640 (no detections), 93.4ms
+image 465/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_620.png: 384x640 (no detections), 93.4ms
+image 466/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_640.png: 384x640 (no detections), 97.2ms
+image 467/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9129_80.png: 384x640 (no detections), 102.1ms
+image 468/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9139_100.png: 384x640 (no detections), 93.8ms
+image 469/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9139_120.png: 384x640 (no detections), 94.9ms
+image 470/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9139_140.png: 384x640 (no detections), 95.8ms
+image 471/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9139_160.png: 384x640 1 gun, 99.3ms
+image 472/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9139_180.png: 384x640 (no detections), 95.3ms
+image 473/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9139_200.png: 384x640 (no detections), 97.9ms
+image 474/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9139_220.png: 384x640 (no detections), 96.4ms
+image 475/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9139_240.png: 384x640 (no detections), 97.4ms
+image 476/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9139_260.png: 384x640 (no detections), 94.9ms
+image 477/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9139_280.png: 384x640 (no detections), 95.2ms
+image 478/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9139_300.png: 384x640 (no detections), 99.3ms
+image 479/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9139_80.png: 384x640 (no detections), 94.0ms
+image 480/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9149_100.png: 384x640 (no detections), 95.7ms
+image 481/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9149_120.png: 384x640 (no detections), 96.0ms
+image 482/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9149_140.png: 384x640 (no detections), 91.7ms
+image 483/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9149_160.png: 384x640 (no detections), 95.3ms
+image 484/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9149_180.png: 384x640 (no detections), 95.0ms
+image 485/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9149_200.png: 384x640 (no detections), 94.5ms
+image 486/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9149_220.png: 384x640 (no detections), 96.0ms
+image 487/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9149_240.png: 384x640 (no detections), 101.2ms
+image 488/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9149_260.png: 384x640 (no detections), 95.5ms
+image 489/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9149_280.png: 384x640 (no detections), 96.0ms
+image 490/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9149_300.png: 384x640 (no detections), 95.9ms
+image 491/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9149_320.png: 384x640 (no detections), 94.7ms
+image 492/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9149_340.png: 384x640 1 knife, 95.5ms
+image 493/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9149_360.png: 384x640 (no detections), 100.4ms
+image 494/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260691A_20220904_normal_9149_80.png: 384x640 (no detections), 95.6ms
+image 495/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0001_100.png: 480x640 (no detections), 122.2ms
+image 496/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0001_120.png: 480x640 (no detections), 123.4ms
+image 497/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0001_140.png: 480x640 1 gun, 121.5ms
+image 498/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0001_160.png: 480x640 2 guns, 132.8ms
+image 499/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0001_180.png: 480x640 2 guns, 122.0ms
+image 500/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0001_200.png: 480x640 3 guns, 126.2ms
+image 501/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0001_220.png: 480x640 2 guns, 126.0ms
+image 502/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0001_240.png: 480x640 1 gun, 130.3ms
+image 503/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0001_260.png: 480x640 1 gun, 135.3ms
+image 504/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0001_280.png: 480x640 2 guns, 123.4ms
+image 505/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0001_300.png: 480x640 2 guns, 124.5ms
+image 506/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0001_320.png: 480x640 2 guns, 125.9ms
+image 507/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0001_340.png: 480x640 1 gun, 131.7ms
+image 508/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0001_360.png: 480x640 1 gun, 136.3ms
+image 509/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0001_380.png: 480x640 (no detections), 129.7ms
+image 510/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0001_400.png: 480x640 (no detections), 126.5ms
+image 511/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0001_80.png: 480x640 (no detections), 127.8ms
+image 512/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0002_180.png: 288x640 (no detections), 88.3ms
+image 513/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0002_80.png: 288x640 (no detections), 80.7ms
+image 514/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0260847X_20220830_normal_0006_100.png: 384x640 (no detections), 99.0ms
+image 515/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0261094H_20220901_normal_0001_80.png: 384x640 (no detections), 100.3ms
+image 516/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0261094H_20220901_normal_0004_260.png: 384x640 (no detections), 106.9ms
+image 517/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0261094H_20220901_normal_0005_100.png: 480x640 1 knife, 146.4ms
+image 518/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0261094H_20220901_normal_0005_120.png: 480x640 (no detections), 168.5ms
+image 519/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0261094H_20220901_normal_0005_140.png: 480x640 (no detections), 157.2ms
+image 520/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0261094H_20220901_normal_0005_180.png: 480x640 (no detections), 155.2ms
+image 521/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0261094H_20220901_normal_0005_200.png: 480x640 (no detections), 161.9ms
+image 522/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0261094H_20220901_normal_0005_80.png: 480x640 (no detections), 176.0ms
+image 523/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0261094H_20220901_normal_0006_180.png: 384x640 (no detections), 138.7ms
+image 524/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0261094H_20220901_normal_0007_80.png: 384x640 (no detections), 133.2ms
+image 525/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0261367B_20220902_normal_4029_220.png: 480x640 (no detections), 173.9ms
+image 526/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0261367B_20220902_normal_6914_200.png: 480x640 (no detections), 167.5ms
+image 527/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0261367B_20220902_normal_7125_160.png: 480x640 (no detections), 171.2ms
+image 528/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0261367B_20220902_normal_8924_140.png: 480x640 1 gun, 148.0ms
+image 529/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0261367B_20220902_normal_8924_200.png: 480x640 1 gun, 165.4ms
+image 530/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/A0261367B_20220902_normal_8924_220.png: 480x640 1 gun, 167.5ms
+image 531/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Copy of A0254360L_20220904_normal_0026_340.png: 352x640 (no detections), 123.6ms
+image 532/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_120.png: 384x640 1 gun, 114.0ms
+image 533/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_160.png: 384x640 (no detections), 110.3ms
+image 534/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_180.png: 384x640 (no detections), 103.1ms
+image 535/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_200.png: 384x640 2 guns, 98.8ms
+image 536/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_220.png: 384x640 1 gun, 99.4ms
+image 537/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_240.png: 384x640 2 guns, 99.2ms
+image 538/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_260.png: 384x640 (no detections), 103.0ms
+image 539/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_280.png: 384x640 3 guns, 99.4ms
+image 540/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_300.png: 384x640 (no detections), 100.7ms
+image 541/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_320.png: 384x640 (no detections), 105.1ms
+image 542/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_340.png: 384x640 (no detections), 105.8ms
+image 543/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_360.png: 384x640 (no detections), 107.0ms
+image 544/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_380.png: 384x640 1 knife, 1 gun, 100.4ms
+image 545/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_400.png: 384x640 (no detections), 94.0ms
+image 546/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_420.png: 384x640 (no detections), 101.9ms
+image 547/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_440.png: 384x640 (no detections), 101.8ms
+image 548/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_460.png: 384x640 (no detections), 162.5ms
+image 549/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/London Walk from Oxford Street to Carnaby Street (online-video-cutter_80.png: 384x640 (no detections), 117.6ms
+image 550/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal1_converted_140.png: 480x640 1 gun, 133.4ms
+image 551/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal1_converted_160.png: 480x640 1 gun, 135.3ms
+image 552/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal1_converted_180.png: 480x640 1 gun, 132.6ms
+image 553/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal1_converted_200.png: 480x640 1 gun, 133.3ms
+image 554/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal1_converted_220.png: 480x640 1 gun, 149.7ms
+image 555/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal1_converted_240.png: 480x640 1 gun, 149.4ms
+image 556/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal1_converted_80.png: 480x640 1 gun, 151.5ms
+image 557/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal2_converted_100.png: 480x640 1 gun, 144.2ms
+image 558/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal2_converted_120.png: 480x640 1 gun, 136.7ms
+image 559/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal2_converted_140.png: 480x640 1 gun, 144.2ms
+image 560/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal2_converted_160.png: 480x640 1 gun, 141.8ms
+image 561/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal2_converted_200.png: 480x640 1 gun, 140.5ms
+image 562/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal2_converted_240.png: 480x640 1 gun, 145.6ms
+image 563/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal2_converted_260.png: 480x640 1 gun, 143.3ms
+image 564/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal2_converted_280.png: 480x640 1 gun, 140.2ms
+image 565/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal2_converted_300.png: 480x640 1 gun, 162.0ms
+image 566/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal2_converted_320.png: 480x640 (no detections), 143.3ms
+image 567/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal2_converted_80.png: 480x640 1 gun, 144.6ms
+image 568/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal3_converted_100.png: 384x640 (no detections), 107.0ms
+image 569/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal3_converted_120.png: 384x640 (no detections), 99.8ms
+image 570/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal3_converted_140.png: 384x640 1 gun, 98.2ms
+image 571/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal3_converted_160.png: 384x640 1 gun, 100.0ms
+image 572/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal3_converted_180.png: 384x640 (no detections), 98.7ms
+image 573/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal3_converted_200.png: 384x640 (no detections), 102.3ms
+image 574/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal3_converted_220.png: 384x640 1 gun, 99.3ms
+image 575/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal3_converted_240.png: 384x640 (no detections), 98.9ms
+image 576/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal3_converted_260.png: 384x640 1 gun, 97.9ms
+image 577/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal3_converted_280.png: 384x640 1 gun, 98.5ms
+image 578/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal3_converted_300.png: 384x640 1 gun, 96.7ms
+image 579/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal3_converted_320.png: 384x640 (no detections), 97.6ms
+image 580/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal3_converted_340.png: 384x640 (no detections), 99.1ms
+image 581/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal3_converted_360.png: 384x640 1 gun, 98.8ms
+image 582/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal3_converted_80.png: 384x640 (no detections), 98.7ms
+image 583/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal4_converted_100.png: 384x640 (no detections), 97.1ms
+image 584/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal4_converted_120.png: 384x640 (no detections), 94.8ms
+image 585/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal4_converted_140.png: 384x640 (no detections), 95.8ms
+image 586/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal4_converted_80.png: 384x640 (no detections), 94.9ms
+image 587/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal5_converted_100.png: 384x640 1 gun, 95.9ms
+image 588/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal5_converted_120.png: 384x640 (no detections), 96.6ms
+image 589/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal5_converted_140.png: 384x640 (no detections), 99.3ms
+image 590/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal5_converted_160.png: 384x640 1 gun, 96.1ms
+image 591/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal5_converted_180.png: 384x640 1 gun, 96.9ms
+image 592/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal5_converted_200.png: 384x640 (no detections), 100.9ms
+image 593/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Normal5_converted_80.png: 384x640 1 gun, 97.6ms
+image 594/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Pexels Videos 4698_15fps_100.png: 384x640 4 guns, 96.3ms
+image 595/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Pexels Videos 4698_15fps_120.png: 384x640 6 guns, 94.1ms
+image 596/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Pexels Videos 4698_15fps_140.png: 384x640 5 guns, 99.4ms
+image 597/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Pexels Videos 4698_15fps_160.png: 384x640 6 guns, 97.4ms
+image 598/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Pexels Videos 4698_15fps_180.png: 384x640 5 guns, 110.1ms
+image 599/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Pexels Videos 4698_15fps_200.png: 384x640 7 guns, 107.0ms
+image 600/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Pexels Videos 4698_15fps_220.png: 384x640 6 guns, 104.7ms
+image 601/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Pexels Videos 4698_15fps_80.png: 384x640 5 guns, 97.9ms
+image 602/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_100.png: 384x640 3 guns, 96.2ms
+image 603/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_120.png: 384x640 2 guns, 99.2ms
+image 604/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_140.png: 384x640 2 guns, 100.6ms
+image 605/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_160.png: 384x640 2 guns, 97.2ms
+image 606/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_180.png: 384x640 5 guns, 100.6ms
+image 607/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_200.png: 384x640 6 guns, 98.5ms
+image 608/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_220.png: 384x640 4 guns, 95.3ms
+image 609/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_240.png: 384x640 5 guns, 97.2ms
+image 610/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_260.png: 384x640 4 guns, 100.7ms
+image 611/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_280.png: 384x640 3 guns, 97.6ms
+image 612/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_300.png: 384x640 3 guns, 97.8ms
+image 613/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_320.png: 384x640 3 guns, 98.3ms
+image 614/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_340.png: 384x640 5 guns, 96.8ms
+image 615/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_360.png: 384x640 3 guns, 96.0ms
+image 616/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_380.png: 384x640 4 guns, 99.0ms
+image 617/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_400.png: 384x640 4 guns, 96.5ms
+image 618/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_420.png: 384x640 3 guns, 100.3ms
+image 619/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines (online-video-cutter_80.png: 384x640 2 guns, 97.5ms
+image 620/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_100.png: 384x640 3 guns, 104.2ms
+image 621/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_120.png: 384x640 2 guns, 96.2ms
+image 622/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_140.png: 384x640 2 guns, 99.6ms
+image 623/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_160.png: 384x640 2 guns, 100.3ms
+image 624/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_180.png: 384x640 5 guns, 96.8ms
+image 625/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_200.png: 384x640 6 guns, 97.5ms
+image 626/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_220.png: 384x640 4 guns, 102.0ms
+image 627/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_240.png: 384x640 5 guns, 98.1ms
+image 628/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_260.png: 384x640 4 guns, 101.1ms
+image 629/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_280.png: 384x640 3 guns, 95.1ms
+image 630/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_300.png: 384x640 3 guns, 96.7ms
+image 631/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_320.png: 384x640 3 guns, 98.2ms
+image 632/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_340.png: 384x640 5 guns, 97.8ms
+image 633/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_360.png: 384x640 3 guns, 95.6ms
+image 634/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_380.png: 384x640 4 guns, 128.3ms
+image 635/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_400.png: 384x640 4 guns, 111.1ms
+image 636/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_420.png: 384x640 3 guns, 97.8ms
+image 637/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Street view with people walking in the Philippines_80.png: 384x640 2 guns, 95.4ms
+image 638/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Threat1_converted_100.png: 384x640 2 guns, 97.0ms
+image 639/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/Threat1_converted_220.png: 384x640 2 guns, 99.7ms
+image 640/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_100.png: 384x640 (no detections), 96.2ms
+image 641/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_140.png: 384x640 (no detections), 97.0ms
+image 642/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_200.png: 384x640 (no detections), 98.4ms
+image 643/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_220.png: 384x640 (no detections), 97.8ms
+image 644/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_240.png: 384x640 (no detections), 94.2ms
+image 645/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_260.png: 384x640 (no detections), 94.5ms
+image 646/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_280.png: 384x640 (no detections), 94.8ms
+image 647/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_300.png: 384x640 (no detections), 93.5ms
+image 648/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_320.png: 384x640 (no detections), 94.7ms
+image 649/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_340.png: 384x640 (no detections), 93.8ms
+image 650/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_360.png: 384x640 (no detections), 97.5ms
+image 651/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_380.png: 384x640 (no detections), 93.2ms
+image 652/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_400.png: 384x640 (no detections), 93.1ms
+image 653/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_420.png: 384x640 (no detections), 93.0ms
+image 654/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_440.png: 384x640 (no detections), 95.4ms
+image 655/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_460.png: 384x640 (no detections), 91.6ms
+image 656/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_480.png: 384x640 (no detections), 91.7ms
+image 657/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_520.png: 384x640 (no detections), 91.9ms
+image 658/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_540.png: 384x640 (no detections), 95.1ms
+image 659/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_560.png: 384x640 (no detections), 94.3ms
+image 660/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_580.png: 384x640 (no detections), 90.4ms
+image 661/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_600.png: 384x640 (no detections), 93.6ms
+image 662/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_620.png: 384x640 (no detections), 96.2ms
+image 663/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_660.png: 384x640 (no detections), 96.1ms
+image 664/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_680.png: 384x640 (no detections), 96.4ms
+image 665/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_700.png: 384x640 1 gun, 92.4ms
+image 666/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_720.png: 384x640 (no detections), 95.8ms
+image 667/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_740.png: 384x640 (no detections), 93.4ms
+image 668/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_760.png: 384x640 (no detections), 96.7ms
+image 669/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_780.png: 384x640 (no detections), 97.1ms
+image 670/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_80.png: 384x640 (no detections), 95.5ms
+image 671/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_800.png: 384x640 (no detections), 94.3ms
+image 672/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_820.png: 384x640 (no detections), 92.9ms
+image 673/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/e0426326_20220901_normal_5469_860.png: 384x640 (no detections), 94.7ms
+image 674/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/nomral5_100.png: 384x640 1 knife, 94.2ms
+image 675/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/nomral5_120.png: 384x640 (no detections), 96.4ms
+image 676/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/nomral5_140.png: 384x640 (no detections), 97.6ms
+image 677/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/nomral5_160.png: 384x640 1 gun, 101.9ms
+image 678/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/nomral5_80.png: 384x640 (no detections), 105.2ms
+image 679/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 1_100.png: 640x384 (no detections), 104.9ms
+image 680/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 1_120.png: 640x384 (no detections), 105.4ms
+image 681/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 1_140.png: 640x384 (no detections), 109.3ms
+image 682/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 1_80.png: 640x384 1 gun, 101.8ms
+image 683/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 2_100.png: 384x640 (no detections), 99.1ms
+image 684/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 2_120.png: 384x640 (no detections), 102.7ms
+image 685/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 2_140.png: 384x640 (no detections), 97.9ms
+image 686/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 2_160.png: 384x640 (no detections), 99.6ms
+image 687/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 2_180.png: 384x640 (no detections), 97.4ms
+image 688/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 2_200.png: 384x640 (no detections), 98.2ms
+image 689/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 2_220.png: 384x640 (no detections), 96.2ms
+image 690/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 2_240.png: 384x640 (no detections), 97.7ms
+image 691/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 2_260.png: 384x640 (no detections), 94.5ms
+image 692/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 2_280.png: 384x640 (no detections), 95.8ms
+image 693/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 2_300.png: 384x640 (no detections), 99.4ms
+image 694/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 2_320.png: 384x640 (no detections), 94.8ms
+image 695/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 2_80.png: 384x640 (no detections), 96.6ms
+image 696/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 3_120.png: 384x640 (no detections), 99.9ms
+image 697/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 3_140.png: 384x640 (no detections), 97.6ms
+image 698/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 3_160.png: 384x640 2 knifes, 98.0ms
+image 699/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 3_80.png: 384x640 (no detections), 95.6ms
+image 700/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 4_100.png: 384x640 (no detections), 101.6ms
+image 701/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 4_120.png: 384x640 (no detections), 98.7ms
+image 702/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 4_140.png: 384x640 (no detections), 97.4ms
+image 703/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 4_160.png: 384x640 1 gun, 96.9ms
+image 704/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 4_80.png: 384x640 (no detections), 95.6ms
+image 705/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 5_100.png: 384x640 (no detections), 92.3ms
+image 706/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 5_120.png: 384x640 (no detections), 96.1ms
+image 707/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 5_140.png: 384x640 (no detections), 92.4ms
+image 708/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 5_160.png: 384x640 (no detections), 100.3ms
+image 709/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 6_100.png: 384x640 1 gun, 99.6ms
+image 710/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 6_120.png: 384x640 1 gun, 101.0ms
+image 711/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 6_140.png: 384x640 (no detections), 100.0ms
+image 712/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 6_160.png: 384x640 (no detections), 103.9ms
+image 713/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 6_80.png: 384x640 (no detections), 99.7ms
+image 714/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 7_100.png: 384x640 1 gun, 101.9ms
+image 715/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 7_120.png: 384x640 1 gun, 99.5ms
+image 716/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 7_140.png: 384x640 1 gun, 98.2ms
+image 717/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 7_160.png: 384x640 1 gun, 97.5ms
+image 718/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 7_180.png: 384x640 1 gun, 102.2ms
+image 719/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 7_200.png: 384x640 1 gun, 109.6ms
+image 720/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 7_220.png: 384x640 1 gun, 103.2ms
+image 721/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 7_240.png: 384x640 1 gun, 96.3ms
+image 722/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 7_80.png: 384x640 1 gun, 105.1ms
+image 723/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 8_100.png: 384x640 (no detections), 99.7ms
+image 724/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 8_120.png: 384x640 (no detections), 96.6ms
+image 725/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 8_140.png: 384x640 (no detections), 97.9ms
+image 726/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 8_160.png: 384x640 (no detections), 96.4ms
+image 727/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 8_180.png: 384x640 (no detections), 96.3ms
+image 728/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 8_200.png: 384x640 (no detections), 101.2ms
+image 729/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 8_220.png: 384x640 (no detections), 93.7ms
+image 730/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 8_240.png: 384x640 (no detections), 97.2ms
+image 731/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 8_260.png: 384x640 (no detections), 94.6ms
+image 732/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 8_280.png: 384x640 (no detections), 95.8ms
+image 733/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 8_300.png: 384x640 (no detections), 96.9ms
+image 734/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 8_320.png: 384x640 (no detections), 93.9ms
+image 735/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal 8_80.png: 384x640 (no detections), 98.1ms
+image 736/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(ANTHONY LIE)_100.png: 384x640 (no detections), 94.6ms
+image 737/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(ANTHONY LIE)_120.png: 384x640 (no detections), 94.0ms
+image 738/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(ANTHONY LIE)_140.png: 384x640 1 gun, 94.5ms
+image 739/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(ANTHONY LIE)_160.png: 384x640 (no detections), 97.8ms
+image 740/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(ANTHONY LIE)_180.png: 384x640 (no detections), 96.2ms
+image 741/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(ANTHONY LIE)_200.png: 384x640 (no detections), 97.3ms
+image 742/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(ANTHONY LIE)_220.png: 384x640 (no detections), 94.4ms
+image 743/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(ANTHONY LIE)_80.png: 384x640 (no detections), 98.4ms
+image 744/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(Hoeymork Haavar)_100.png: 384x640 (no detections), 105.1ms
+image 745/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(Hoeymork Haavar)_120.png: 384x640 (no detections), 109.1ms
+image 746/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(Hoeymork Haavar)_140.png: 384x640 (no detections), 101.3ms
+image 747/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(Hoeymork Haavar)_160.png: 384x640 (no detections), 101.1ms
+image 748/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(Hoeymork Haavar)_80.png: 384x640 (no detections), 101.6ms
+image 749/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(LIAO TIANCHANG)_120.png: 480x640 (no detections), 121.0ms
+image 750/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(LIAO TIANCHANG)_140.png: 480x640 (no detections), 129.1ms
+image 751/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(LIAO TIANCHANG)_80.png: 480x640 (no detections), 121.7ms
+image 752/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(TAN YING HUI)_100.png: 640x384 (no detections), 105.5ms
+image 753/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(TAN YING HUI)_140.png: 640x384 (no detections), 101.7ms
+image 754/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(TAN YING HUI)_160.png: 640x384 (no detections), 102.1ms
+image 755/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(TAN YING HUI)_220.png: 640x384 (no detections), 99.9ms
+image 756/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(TAN YING HUI)_240.png: 640x384 (no detections), 102.4ms
+image 757/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(TAN YING HUI)_300.png: 640x384 (no detections), 101.0ms
+image 758/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(TAN YING HUI)_80.png: 640x384 (no detections), 106.6ms
+image 759/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(Wu Yuhao)_100.png: 384x640 (no detections), 98.0ms
+image 760/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(Wu Yuhao)_120.png: 384x640 (no detections), 98.9ms
+image 761/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(Wu Yuhao)_140.png: 384x640 (no detections), 96.9ms
+image 762/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(Wu Yuhao)_160.png: 384x640 (no detections), 100.8ms
+image 763/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1(Wu Yuhao)_80.png: 384x640 (no detections), 97.2ms
+image 764/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal10_100.png: 384x640 (no detections), 101.2ms
+image 765/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal10_120.png: 384x640 (no detections), 95.7ms
+image 766/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal10_140.png: 384x640 (no detections), 92.3ms
+image 767/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal10_160.png: 384x640 (no detections), 94.8ms
+image 768/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal10_180.png: 384x640 (no detections), 93.0ms
+image 769/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal10_200.png: 384x640 (no detections), 97.9ms
+image 770/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal10_220.png: 384x640 (no detections), 97.2ms
+image 771/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal10_240.png: 384x640 (no detections), 98.3ms
+image 772/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal10_260.png: 384x640 (no detections), 97.9ms
+image 773/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal10_80.png: 384x640 (no detections), 97.9ms
+image 774/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal11_100.png: 384x640 (no detections), 103.8ms
+image 775/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal11_120.png: 384x640 (no detections), 101.5ms
+image 776/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal11_140.png: 384x640 (no detections), 95.9ms
+image 777/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal11_160.png: 384x640 (no detections), 102.2ms
+image 778/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal11_80.png: 384x640 (no detections), 93.8ms
+image 779/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1_100.png: 384x640 2 guns, 98.9ms
+image 780/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1_120.png: 384x640 1 gun, 96.7ms
+image 781/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1_140.png: 384x640 1 gun, 95.6ms
+image 782/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1_160.png: 384x640 (no detections), 95.4ms
+image 783/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal1_80.png: 384x640 1 gun, 94.9ms
+image 784/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(ANTHONY LIE)_100.png: 384x640 1 gun, 97.1ms
+image 785/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(ANTHONY LIE)_120.png: 384x640 1 gun, 100.2ms
+image 786/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(ANTHONY LIE)_140.png: 384x640 1 gun, 96.8ms
+image 787/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(ANTHONY LIE)_160.png: 384x640 1 gun, 97.8ms
+image 788/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(ANTHONY LIE)_180.png: 384x640 1 gun, 99.3ms
+image 789/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(ANTHONY LIE)_80.png: 384x640 1 gun, 103.1ms
+image 790/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(Hoeymork Haavar)_100.png: 384x640 (no detections), 99.8ms
+image 791/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(Hoeymork Haavar)_120.png: 384x640 (no detections), 105.4ms
+image 792/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(Hoeymork Haavar)_140.png: 384x640 (no detections), 98.0ms
+image 793/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(Hoeymork Haavar)_160.png: 384x640 (no detections), 101.6ms
+image 794/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(Hoeymork Haavar)_180.png: 384x640 (no detections), 109.5ms
+image 795/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(Hoeymork Haavar)_200.png: 384x640 (no detections), 100.3ms
+image 796/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(Hoeymork Haavar)_220.png: 384x640 (no detections), 99.6ms
+image 797/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(Hoeymork Haavar)_240.png: 384x640 (no detections), 98.5ms
+image 798/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(Hoeymork Haavar)_260.png: 384x640 1 gun, 99.1ms
+image 799/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(Hoeymork Haavar)_280.png: 384x640 (no detections), 96.6ms
+image 800/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(Hoeymork Haavar)_80.png: 384x640 (no detections), 101.2ms
+image 801/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(LIAO TIANCHANG)_100.png: 480x640 (no detections), 123.8ms
+image 802/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(LIAO TIANCHANG)_140.png: 480x640 (no detections), 121.2ms
+image 803/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(LIAO TIANCHANG)_80.png: 480x640 (no detections), 125.4ms
+image 804/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_100.png: 640x384 (no detections), 100.2ms
+image 805/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_120.png: 640x384 (no detections), 97.7ms
+image 806/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_140.png: 640x384 (no detections), 100.2ms
+image 807/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_160.png: 640x384 (no detections), 98.7ms
+image 808/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_180.png: 640x384 (no detections), 95.7ms
+image 809/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_200.png: 640x384 (no detections), 101.3ms
+image 810/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_220.png: 640x384 (no detections), 98.6ms
+image 811/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_240.png: 640x384 (no detections), 96.4ms
+image 812/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_260.png: 640x384 (no detections), 97.4ms
+image 813/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_280.png: 640x384 (no detections), 101.3ms
+image 814/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_300.png: 640x384 (no detections), 100.4ms
+image 815/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_320.png: 640x384 (no detections), 96.1ms
+image 816/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_340.png: 640x384 (no detections), 101.5ms
+image 817/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_360.png: 640x384 (no detections), 102.2ms
+image 818/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_400.png: 640x384 1 knife, 100.1ms
+image 819/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_420.png: 640x384 (no detections), 101.4ms
+image 820/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_440.png: 640x384 (no detections), 103.3ms
+image 821/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_460.png: 640x384 (no detections), 102.5ms
+image 822/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_500.png: 640x384 1 gun, 99.8ms
+image 823/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_520.png: 640x384 (no detections), 99.6ms
+image 824/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_560.png: 640x384 (no detections), 97.6ms
+image 825/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_600.png: 640x384 (no detections), 99.5ms
+image 826/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_620.png: 640x384 (no detections), 103.4ms
+image 827/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_640.png: 640x384 (no detections), 105.5ms
+image 828/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_660.png: 640x384 (no detections), 119.6ms
+image 829/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_680.png: 640x384 (no detections), 118.8ms
+image 830/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_700.png: 640x384 (no detections), 117.1ms
+image 831/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_720.png: 640x384 1 knife, 111.7ms
+image 832/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_740.png: 640x384 (no detections), 112.3ms
+image 833/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(TAN YING HUI)_80.png: 640x384 (no detections), 110.4ms
+image 834/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(Wu Yuhao)_120.png: 384x640 (no detections), 107.3ms
+image 835/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(Wu Yuhao)_140.png: 384x640 (no detections), 100.5ms
+image 836/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(Wu Yuhao)_160.png: 384x640 (no detections), 101.9ms
+image 837/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2(Wu Yuhao)_80.png: 384x640 (no detections), 103.8ms
+image 838/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2_120.png: 384x640 (no detections), 96.9ms
+image 839/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2_140.png: 384x640 (no detections), 94.5ms
+image 840/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2_160.png: 384x640 (no detections), 93.2ms
+image 841/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal2_80.png: 384x640 (no detections), 97.1ms
+image 842/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(ANTHONY LIE)_100.png: 384x640 1 knife, 97.4ms
+image 843/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(ANTHONY LIE)_120.png: 384x640 1 knife, 97.8ms
+image 844/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(ANTHONY LIE)_140.png: 384x640 1 knife, 99.2ms
+image 845/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(ANTHONY LIE)_160.png: 384x640 1 knife, 96.7ms
+image 846/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(ANTHONY LIE)_180.png: 384x640 1 knife, 97.7ms
+image 847/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(ANTHONY LIE)_200.png: 384x640 (no detections), 97.0ms
+image 848/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(ANTHONY LIE)_220.png: 384x640 1 knife, 96.8ms
+image 849/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(ANTHONY LIE)_80.png: 384x640 (no detections), 95.2ms
+image 850/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(Hoeymork Haavar)_100.png: 384x640 (no detections), 101.3ms
+image 851/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(Hoeymork Haavar)_120.png: 384x640 (no detections), 98.5ms
+image 852/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(Hoeymork Haavar)_140.png: 384x640 (no detections), 96.2ms
+image 853/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(Hoeymork Haavar)_160.png: 384x640 (no detections), 103.4ms
+image 854/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(Hoeymork Haavar)_180.png: 384x640 (no detections), 98.2ms
+image 855/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(Hoeymork Haavar)_200.png: 384x640 (no detections), 101.3ms
+image 856/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(Hoeymork Haavar)_80.png: 384x640 (no detections), 100.4ms
+image 857/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(LIAO TIANCHANG)_100.png: 480x640 1 gun, 132.2ms
+image 858/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(LIAO TIANCHANG)_120.png: 480x640 1 gun, 130.7ms
+image 859/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(LIAO TIANCHANG)_140.png: 480x640 (no detections), 137.1ms
+image 860/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(LIAO TIANCHANG)_80.png: 480x640 1 gun, 153.4ms
+image 861/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_100.png: 640x384 (no detections), 119.8ms
+image 862/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_120.png: 640x384 1 gun, 105.6ms
+image 863/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_140.png: 640x384 (no detections), 97.5ms
+image 864/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_160.png: 640x384 (no detections), 97.7ms
+image 865/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_180.png: 640x384 (no detections), 97.4ms
+image 866/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_200.png: 640x384 1 gun, 102.2ms
+image 867/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_220.png: 640x384 (no detections), 100.3ms
+image 868/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_240.png: 640x384 1 gun, 100.7ms
+image 869/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_260.png: 640x384 (no detections), 101.2ms
+image 870/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_280.png: 640x384 (no detections), 101.9ms
+image 871/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_300.png: 640x384 (no detections), 105.1ms
+image 872/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_320.png: 640x384 (no detections), 105.5ms
+image 873/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_340.png: 640x384 (no detections), 103.2ms
+image 874/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_360.png: 640x384 1 gun, 107.5ms
+image 875/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_380.png: 640x384 (no detections), 105.9ms
+image 876/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_400.png: 640x384 (no detections), 100.9ms
+image 877/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_420.png: 640x384 (no detections), 97.9ms
+image 878/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_440.png: 640x384 (no detections), 98.4ms
+image 879/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_460.png: 640x384 (no detections), 101.2ms
+image 880/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_480.png: 640x384 (no detections), 102.1ms
+image 881/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_500.png: 640x384 1 gun, 101.8ms
+image 882/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_520.png: 640x384 1 gun, 101.1ms
+image 883/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_540.png: 640x384 (no detections), 100.1ms
+image 884/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_560.png: 640x384 (no detections), 102.7ms
+image 885/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_580.png: 640x384 (no detections), 101.5ms
+image 886/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_600.png: 640x384 (no detections), 101.4ms
+image 887/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_620.png: 640x384 1 gun, 100.6ms
+image 888/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_640.png: 640x384 (no detections), 106.8ms
+image 889/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_660.png: 640x384 1 gun, 105.0ms
+image 890/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_680.png: 640x384 (no detections), 106.3ms
+image 891/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_700.png: 640x384 (no detections), 106.5ms
+image 892/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_720.png: 640x384 1 gun, 104.0ms
+image 893/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_740.png: 640x384 (no detections), 101.9ms
+image 894/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_760.png: 640x384 (no detections), 109.3ms
+image 895/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(TAN YING HUI)_80.png: 640x384 1 knife, 103.4ms
+image 896/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(Wu Yuhao)_100.png: 384x640 1 gun, 109.7ms
+image 897/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(Wu Yuhao)_120.png: 384x640 1 gun, 102.6ms
+image 898/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(Wu Yuhao)_140.png: 384x640 (no detections), 103.2ms
+image 899/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(Wu Yuhao)_160.png: 384x640 (no detections), 103.7ms
+image 900/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(Wu Yuhao)_180.png: 384x640 (no detections), 105.8ms
+image 901/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(Wu Yuhao)_200.png: 384x640 (no detections), 107.7ms
+image 902/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(Wu Yuhao)_220.png: 384x640 (no detections), 106.3ms
+image 903/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(Wu Yuhao)_240.png: 384x640 (no detections), 102.3ms
+image 904/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3(Wu Yuhao)_80.png: 384x640 1 gun, 109.5ms
+image 905/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3_100.png: 384x640 1 gun, 94.4ms
+image 906/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3_120.png: 384x640 1 gun, 95.2ms
+image 907/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3_140.png: 384x640 (no detections), 91.5ms
+image 908/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3_160.png: 384x640 (no detections), 94.0ms
+image 909/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3_180.png: 384x640 1 knife, 94.5ms
+image 910/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3_200.png: 384x640 (no detections), 98.8ms
+image 911/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3_220.png: 384x640 (no detections), 100.2ms
+image 912/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal3_80.png: 384x640 (no detections), 95.4ms
+image 913/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(ANTHONY LIE)_100.png: 384x640 (no detections), 96.2ms
+image 914/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(ANTHONY LIE)_120.png: 384x640 (no detections), 95.0ms
+image 915/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(ANTHONY LIE)_140.png: 384x640 (no detections), 94.5ms
+image 916/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(ANTHONY LIE)_160.png: 384x640 1 gun, 93.0ms
+image 917/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(ANTHONY LIE)_180.png: 384x640 (no detections), 97.4ms
+image 918/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(ANTHONY LIE)_200.png: 384x640 (no detections), 100.0ms
+image 919/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(ANTHONY LIE)_80.png: 384x640 (no detections), 96.9ms
+image 920/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(Hoeymork Haavar)_100.png: 384x640 1 gun, 100.5ms
+image 921/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(Hoeymork Haavar)_120.png: 384x640 2 guns, 99.1ms
+image 922/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(Hoeymork Haavar)_140.png: 384x640 1 gun, 97.7ms
+image 923/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(Hoeymork Haavar)_160.png: 384x640 3 guns, 95.8ms
+image 924/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(Hoeymork Haavar)_180.png: 384x640 1 gun, 104.4ms
+image 925/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(Hoeymork Haavar)_200.png: 384x640 (no detections), 104.3ms
+image 926/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(Hoeymork Haavar)_80.png: 384x640 3 guns, 99.3ms
+image 927/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(LIAO TIANCHANG)_100.png: 480x640 (no detections), 127.8ms
+image 928/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(LIAO TIANCHANG)_120.png: 480x640 (no detections), 121.1ms
+image 929/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(LIAO TIANCHANG)_140.png: 480x640 (no detections), 126.5ms
+image 930/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(LIAO TIANCHANG)_80.png: 480x640 1 gun, 126.1ms
+image 931/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(TAN YING HUI)_100.png: 640x384 (no detections), 107.4ms
+image 932/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(TAN YING HUI)_120.png: 640x384 (no detections), 107.3ms
+image 933/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(TAN YING HUI)_140.png: 640x384 (no detections), 106.7ms
+image 934/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(TAN YING HUI)_160.png: 640x384 (no detections), 113.7ms
+image 935/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(TAN YING HUI)_180.png: 640x384 (no detections), 117.4ms
+image 936/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(TAN YING HUI)_80.png: 640x384 (no detections), 119.6ms
+image 937/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(Wu Yuhao)_100.png: 384x640 1 gun, 106.7ms
+image 938/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(Wu Yuhao)_120.png: 384x640 (no detections), 104.9ms
+image 939/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(Wu Yuhao)_140.png: 384x640 (no detections), 103.7ms
+image 940/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(Wu Yuhao)_160.png: 384x640 1 gun, 101.7ms
+image 941/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(Wu Yuhao)_180.png: 384x640 (no detections), 98.7ms
+image 942/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(Wu Yuhao)_200.png: 384x640 (no detections), 106.3ms
+image 943/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4(Wu Yuhao)_80.png: 384x640 (no detections), 101.4ms
+image 944/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4_100.png: 384x640 1 knife, 1 gun, 96.5ms
+image 945/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4_120.png: 384x640 (no detections), 94.2ms
+image 946/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4_140.png: 384x640 (no detections), 97.7ms
+image 947/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4_160.png: 384x640 (no detections), 99.2ms
+image 948/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4_180.png: 384x640 (no detections), 110.5ms
+image 949/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4_200.png: 384x640 (no detections), 98.0ms
+image 950/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4_220.png: 384x640 (no detections), 93.9ms
+image 951/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4_240.png: 384x640 (no detections), 93.8ms
+image 952/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4_260.png: 384x640 (no detections), 95.7ms
+image 953/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4_280.png: 384x640 (no detections), 99.9ms
+image 954/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4_300.png: 384x640 1 gun, 95.5ms
+image 955/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4_320.png: 384x640 1 knife, 100.4ms
+image 956/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4_340.png: 384x640 (no detections), 94.7ms
+image 957/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4_360.png: 384x640 (no detections), 94.0ms
+image 958/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal4_80.png: 384x640 (no detections), 96.4ms
+image 959/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(ANTHONY LIE)_100.png: 384x640 1 knife, 97.6ms
+image 960/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(ANTHONY LIE)_120.png: 384x640 (no detections), 95.3ms
+image 961/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(ANTHONY LIE)_140.png: 384x640 1 gun, 98.4ms
+image 962/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(ANTHONY LIE)_160.png: 384x640 (no detections), 98.3ms
+image 963/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(ANTHONY LIE)_180.png: 384x640 (no detections), 97.1ms
+image 964/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(ANTHONY LIE)_200.png: 384x640 (no detections), 102.5ms
+image 965/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(ANTHONY LIE)_220.png: 384x640 (no detections), 98.2ms
+image 966/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(ANTHONY LIE)_80.png: 384x640 2 knifes, 98.9ms
+image 967/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(Hoeymork Haavar)_100.png: 384x640 1 gun, 98.5ms
+image 968/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(Hoeymork Haavar)_120.png: 384x640 (no detections), 95.9ms
+image 969/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(Hoeymork Haavar)_140.png: 384x640 1 gun, 100.6ms
+image 970/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(Hoeymork Haavar)_160.png: 384x640 (no detections), 98.7ms
+image 971/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(Hoeymork Haavar)_180.png: 384x640 1 gun, 102.2ms
+image 972/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(Hoeymork Haavar)_200.png: 384x640 (no detections), 99.9ms
+image 973/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(Hoeymork Haavar)_220.png: 384x640 (no detections), 99.6ms
+image 974/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(Hoeymork Haavar)_240.png: 384x640 1 gun, 99.7ms
+image 975/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(Hoeymork Haavar)_260.png: 384x640 1 gun, 103.4ms
+image 976/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(Hoeymork Haavar)_280.png: 384x640 2 guns, 95.9ms
+image 977/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(Hoeymork Haavar)_300.png: 384x640 1 gun, 100.9ms
+image 978/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(Hoeymork Haavar)_320.png: 384x640 1 gun, 98.0ms
+image 979/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(Hoeymork Haavar)_340.png: 384x640 (no detections), 101.7ms
+image 980/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(Hoeymork Haavar)_360.png: 384x640 1 gun, 107.0ms
+image 981/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(Hoeymork Haavar)_80.png: 384x640 1 gun, 103.1ms
+image 982/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(LIAO TIANCHANG)_100.png: 480x640 (no detections), 123.7ms
+image 983/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(LIAO TIANCHANG)_120.png: 480x640 (no detections), 123.9ms
+image 984/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(LIAO TIANCHANG)_140.png: 480x640 1 gun, 126.5ms
+image 985/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5(LIAO TIANCHANG)_80.png: 480x640 (no detections), 125.8ms
+image 986/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5_100.png: 640x384 (no detections), 99.2ms
+image 987/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5_120.png: 640x384 1 knife, 97.7ms
+image 988/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5_140.png: 640x384 1 knife, 101.6ms
+image 989/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5_160.png: 640x384 (no detections), 102.4ms
+image 990/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5_180.png: 640x384 (no detections), 102.3ms
+image 991/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5_200.png: 640x384 (no detections), 99.5ms
+image 992/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5_220.png: 640x384 (no detections), 99.1ms
+image 993/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5_240.png: 640x384 (no detections), 100.4ms
+image 994/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5_260.png: 640x384 1 knife, 98.6ms
+image 995/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5_280.png: 640x384 1 knife, 100.6ms
+image 996/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5_300.png: 640x384 1 gun, 98.8ms
+image 997/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5_320.png: 640x384 1 knife, 1 gun, 101.4ms
+image 998/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal5_80.png: 640x384 (no detections), 102.8ms
+image 999/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(ANTHONY LIE)_100.png: 384x640 (no detections), 99.4ms
+image 1000/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(ANTHONY LIE)_120.png: 384x640 (no detections), 100.7ms
+image 1001/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(ANTHONY LIE)_140.png: 384x640 (no detections), 100.4ms
+image 1002/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(ANTHONY LIE)_160.png: 384x640 (no detections), 102.5ms
+image 1003/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(ANTHONY LIE)_180.png: 384x640 (no detections), 99.7ms
+image 1004/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(ANTHONY LIE)_80.png: 384x640 (no detections), 98.8ms
+image 1005/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(Hoeymork Haavar)_100.png: 384x640 1 gun, 100.6ms
+image 1006/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(Hoeymork Haavar)_120.png: 384x640 (no detections), 98.2ms
+image 1007/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(Hoeymork Haavar)_140.png: 384x640 (no detections), 98.7ms
+image 1008/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(Hoeymork Haavar)_80.png: 384x640 1 gun, 93.5ms
+image 1009/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(LIAO TIANCHANG)_100.png: 480x640 (no detections), 122.2ms
+image 1010/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(LIAO TIANCHANG)_120.png: 480x640 1 gun, 122.8ms
+image 1011/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(LIAO TIANCHANG)_140.png: 480x640 (no detections), 128.5ms
+image 1012/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(LIAO TIANCHANG)_80.png: 480x640 (no detections), 127.7ms
+image 1013/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(TAN YING HUI)_100.png: 640x384 (no detections), 93.4ms
+image 1014/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(TAN YING HUI)_120.png: 640x384 (no detections), 97.0ms
+image 1015/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(TAN YING HUI)_140.png: 640x384 (no detections), 100.0ms
+image 1016/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(TAN YING HUI)_160.png: 640x384 (no detections), 99.2ms
+image 1017/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(TAN YING HUI)_180.png: 640x384 (no detections), 99.0ms
+image 1018/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(TAN YING HUI)_200.png: 640x384 (no detections), 99.4ms
+image 1019/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(TAN YING HUI)_220.png: 640x384 (no detections), 100.5ms
+image 1020/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(TAN YING HUI)_240.png: 640x384 (no detections), 102.6ms
+image 1021/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(TAN YING HUI)_260.png: 640x384 (no detections), 100.1ms
+image 1022/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(TAN YING HUI)_280.png: 640x384 (no detections), 95.5ms
+image 1023/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(TAN YING HUI)_300.png: 640x384 (no detections), 101.8ms
+image 1024/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(TAN YING HUI)_320.png: 640x384 (no detections), 97.9ms
+image 1025/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(TAN YING HUI)_340.png: 640x384 (no detections), 97.8ms
+image 1026/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(TAN YING HUI)_360.png: 640x384 (no detections), 98.1ms
+image 1027/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(TAN YING HUI)_380.png: 640x384 (no detections), 95.8ms
+image 1028/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(TAN YING HUI)_80.png: 640x384 (no detections), 96.7ms
+image 1029/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(Wu Yuhao)_100.png: 384x640 (no detections), 98.5ms
+image 1030/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(Wu Yuhao)_120.png: 384x640 (no detections), 97.1ms
+image 1031/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(Wu Yuhao)_140.png: 384x640 (no detections), 94.8ms
+image 1032/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(Wu Yuhao)_160.png: 384x640 (no detections), 99.1ms
+image 1033/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(Wu Yuhao)_180.png: 384x640 (no detections), 98.0ms
+image 1034/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(Wu Yuhao)_200.png: 384x640 (no detections), 98.1ms
+image 1035/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal6(Wu Yuhao)_80.png: 384x640 (no detections), 99.1ms
+image 1036/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(ANTHONY LIE)_100.png: 384x640 1 gun, 104.1ms
+image 1037/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(ANTHONY LIE)_120.png: 384x640 1 gun, 97.8ms
+image 1038/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(ANTHONY LIE)_140.png: 384x640 (no detections), 100.9ms
+image 1039/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(ANTHONY LIE)_160.png: 384x640 1 gun, 102.1ms
+image 1040/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(ANTHONY LIE)_180.png: 384x640 (no detections), 99.1ms
+image 1041/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(ANTHONY LIE)_200.png: 384x640 (no detections), 98.9ms
+image 1042/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(ANTHONY LIE)_80.png: 384x640 1 gun, 103.1ms
+image 1043/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(LIAO TIANCHANG)_100.png: 480x640 (no detections), 130.8ms
+image 1044/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(LIAO TIANCHANG)_120.png: 480x640 (no detections), 130.3ms
+image 1045/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(LIAO TIANCHANG)_140.png: 480x640 (no detections), 130.6ms
+image 1046/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(LIAO TIANCHANG)_80.png: 480x640 (no detections), 125.9ms
+image 1047/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(TAN YING HUI)_100.png: 640x384 (no detections), 105.9ms
+image 1048/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(TAN YING HUI)_120.png: 640x384 (no detections), 100.2ms
+image 1049/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(TAN YING HUI)_140.png: 640x384 (no detections), 101.2ms
+image 1050/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(TAN YING HUI)_80.png: 640x384 (no detections), 97.0ms
+image 1051/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(Wu Yuhao)_100.png: 384x640 1 gun, 93.9ms
+image 1052/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(Wu Yuhao)_120.png: 384x640 (no detections), 94.9ms
+image 1053/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(Wu Yuhao)_140.png: 384x640 (no detections), 91.8ms
+image 1054/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(Wu Yuhao)_160.png: 384x640 (no detections), 102.6ms
+image 1055/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7(Wu Yuhao)_80.png: 384x640 1 gun, 97.1ms
+image 1056/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7_100.png: 384x640 (no detections), 100.0ms
+image 1057/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7_120.png: 384x640 (no detections), 96.2ms
+image 1058/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7_140.png: 384x640 (no detections), 98.0ms
+image 1059/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal7_80.png: 384x640 (no detections), 98.2ms
+image 1060/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal8_100.png: 384x640 (no detections), 103.3ms
+image 1061/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal8_120.png: 384x640 (no detections), 101.7ms
+image 1062/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal8_140.png: 384x640 1 gun, 99.8ms
+image 1063/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal8_80.png: 384x640 (no detections), 101.1ms
+image 1064/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal9_100.png: 384x640 1 gun, 98.4ms
+image 1065/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal9_120.png: 384x640 (no detections), 94.6ms
+image 1066/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal9_140.png: 384x640 (no detections), 94.3ms
+image 1067/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal9_160.png: 384x640 (no detections), 92.9ms
+image 1068/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal9_180.png: 384x640 (no detections), 96.4ms
+image 1069/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal9_200.png: 384x640 (no detections), 101.4ms
+image 1070/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal9_220.png: 384x640 (no detections), 98.4ms
+image 1071/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal9_240.png: 384x640 (no detections), 100.2ms
+image 1072/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal9_260.png: 384x640 1 knife, 102.1ms
+image 1073/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal9_280.png: 384x640 (no detections), 99.2ms
+image 1074/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal9_80.png: 384x640 (no detections), 97.5ms
+image 1075/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_10_100.png: 384x640 (no detections), 97.7ms
+image 1076/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_10_120.png: 384x640 (no detections), 94.8ms
+image 1077/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_10_140.png: 384x640 (no detections), 92.0ms
+image 1078/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_10_160.png: 384x640 (no detections), 91.3ms
+image 1079/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_10_180.png: 384x640 (no detections), 90.1ms
+image 1080/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_10_200.png: 384x640 (no detections), 91.6ms
+image 1081/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_10_80.png: 384x640 (no detections), 91.7ms
+image 1082/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_1_100.png: 384x640 (no detections), 95.4ms
+image 1083/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_1_120.png: 384x640 (no detections), 103.4ms
+image 1084/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_1_140.png: 384x640 (no detections), 98.7ms
+image 1085/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_1_15fps_100.png: 640x384 (no detections), 100.7ms
+image 1086/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_1_15fps_120.png: 640x384 (no detections), 98.2ms
+image 1087/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_1_15fps_140.png: 640x384 (no detections), 96.3ms
+image 1088/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_1_15fps_160.png: 640x384 (no detections), 97.8ms
+image 1089/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_1_15fps_80.png: 640x384 (no detections), 100.5ms
+image 1090/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_1_160.png: 384x640 (no detections), 97.9ms
+image 1091/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_1_180.png: 384x640 (no detections), 99.7ms
+image 1092/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_1_200.png: 384x640 (no detections), 96.1ms
+image 1093/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_1_220.png: 384x640 (no detections), 94.6ms
+image 1094/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_1_240.png: 384x640 (no detections), 94.5ms
+image 1095/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_1_260.png: 384x640 (no detections), 96.1ms
+image 1096/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_1_280.png: 384x640 (no detections), 100.2ms
+image 1097/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_1_300.png: 384x640 (no detections), 99.6ms
+image 1098/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_1_80.png: 384x640 (no detections), 99.5ms
+image 1099/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_2_100.png: 384x640 (no detections), 98.6ms
+image 1100/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_2_120.png: 384x640 (no detections), 101.8ms
+image 1101/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_2_140.png: 384x640 (no detections), 97.1ms
+image 1102/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_2_15fps_100.png: 640x384 (no detections), 102.4ms
+image 1103/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_2_15fps_120.png: 640x384 (no detections), 101.3ms
+image 1104/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_2_15fps_140.png: 640x384 (no detections), 101.2ms
+image 1105/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_2_15fps_160.png: 640x384 (no detections), 96.3ms
+image 1106/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_2_15fps_80.png: 640x384 (no detections), 94.2ms
+image 1107/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_2_160.png: 384x640 (no detections), 91.5ms
+image 1108/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_2_180.png: 384x640 1 gun, 90.4ms
+image 1109/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_2_80.png: 384x640 (no detections), 92.6ms
+image 1110/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_3_100.png: 384x640 2 knifes, 95.0ms
+image 1111/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_3_120.png: 384x640 (no detections), 94.9ms
+image 1112/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_3_140.png: 384x640 (no detections), 96.0ms
+image 1113/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_3_15fps_100.png: 640x384 (no detections), 100.9ms
+image 1114/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_3_15fps_120.png: 640x384 1 knife, 97.2ms
+image 1115/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_3_15fps_140.png: 640x384 (no detections), 103.2ms
+image 1116/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_3_15fps_160.png: 640x384 (no detections), 100.7ms
+image 1117/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_3_15fps_80.png: 640x384 (no detections), 94.6ms
+image 1118/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_3_160.png: 384x640 (no detections), 89.7ms
+image 1119/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_3_180.png: 384x640 (no detections), 92.2ms
+image 1120/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_3_200.png: 384x640 (no detections), 87.2ms
+image 1121/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_3_220.png: 384x640 (no detections), 93.9ms
+image 1122/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_3_240.png: 384x640 (no detections), 92.7ms
+image 1123/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_3_80.png: 384x640 (no detections), 96.3ms
+image 1124/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_4_100.png: 384x640 (no detections), 99.4ms
+image 1125/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_4_120.png: 384x640 (no detections), 97.7ms
+image 1126/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_4_140.png: 384x640 1 gun, 98.0ms
+image 1127/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_4_15fps_100.png: 640x384 (no detections), 98.2ms
+image 1128/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_4_15fps_120.png: 640x384 (no detections), 98.0ms
+image 1129/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_4_15fps_140.png: 640x384 (no detections), 99.0ms
+image 1130/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_4_15fps_160.png: 640x384 (no detections), 98.3ms
+image 1131/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_4_15fps_80.png: 640x384 (no detections), 102.8ms
+image 1132/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_4_160.png: 384x640 (no detections), 96.2ms
+image 1133/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_4_180.png: 384x640 (no detections), 95.9ms
+image 1134/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_4_200.png: 384x640 (no detections), 97.0ms
+image 1135/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_4_80.png: 384x640 (no detections), 96.2ms
+image 1136/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_5_100.png: 384x640 (no detections), 99.9ms
+image 1137/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_5_120.png: 384x640 (no detections), 97.9ms
+image 1138/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_5_140.png: 384x640 (no detections), 99.6ms
+image 1139/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_5_15fps_100.png: 640x384 (no detections), 100.4ms
+image 1140/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_5_15fps_120.png: 640x384 1 knife, 98.3ms
+image 1141/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_5_15fps_140.png: 640x384 (no detections), 101.2ms
+image 1142/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_5_15fps_160.png: 640x384 1 knife, 100.8ms
+image 1143/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_5_15fps_80.png: 640x384 (no detections), 97.5ms
+image 1144/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_5_160.png: 384x640 (no detections), 103.3ms
+image 1145/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_5_180.png: 384x640 1 gun, 96.0ms
+image 1146/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_5_200.png: 384x640 (no detections), 101.0ms
+image 1147/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_5_220.png: 384x640 (no detections), 96.8ms
+image 1148/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_5_80.png: 384x640 (no detections), 98.9ms
+image 1149/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_6_100.png: 384x640 (no detections), 100.5ms
+image 1150/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_6_120.png: 384x640 1 gun, 97.7ms
+image 1151/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_6_15fps_100.png: 640x384 1 knife, 98.3ms
+image 1152/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_6_15fps_120.png: 640x384 2 knifes, 99.4ms
+image 1153/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_6_15fps_140.png: 640x384 2 knifes, 97.5ms
+image 1154/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_6_15fps_160.png: 640x384 1 knife, 100.3ms
+image 1155/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_6_15fps_80.png: 640x384 1 knife, 97.3ms
+image 1156/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_6_80.png: 384x640 (no detections), 93.6ms
+image 1157/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_7_100.png: 384x640 (no detections), 94.3ms
+image 1158/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_7_120.png: 384x640 (no detections), 100.5ms
+image 1159/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_7_140.png: 384x640 (no detections), 96.6ms
+image 1160/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_7_160.png: 384x640 (no detections), 95.1ms
+image 1161/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_7_180.png: 384x640 (no detections), 97.2ms
+image 1162/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_7_200.png: 384x640 (no detections), 96.5ms
+image 1163/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_7_220.png: 384x640 (no detections), 97.2ms
+image 1164/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_7_240.png: 384x640 (no detections), 98.1ms
+image 1165/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_7_260.png: 384x640 (no detections), 96.9ms
+image 1166/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_7_280.png: 384x640 (no detections), 98.7ms
+image 1167/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_7_300.png: 384x640 (no detections), 93.1ms
+image 1168/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_7_320.png: 384x640 (no detections), 92.2ms
+image 1169/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_7_340.png: 384x640 (no detections), 95.0ms
+image 1170/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_7_360.png: 384x640 (no detections), 95.4ms
+image 1171/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_7_380.png: 384x640 (no detections), 90.9ms
+image 1172/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_7_80.png: 384x640 (no detections), 95.5ms
+image 1173/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_8_100.png: 384x640 (no detections), 96.9ms
+image 1174/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_8_120.png: 384x640 (no detections), 97.5ms
+image 1175/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_8_140.png: 384x640 (no detections), 101.3ms
+image 1176/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_8_160.png: 384x640 (no detections), 100.3ms
+image 1177/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_8_180.png: 384x640 (no detections), 102.5ms
+image 1178/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_8_200.png: 384x640 (no detections), 100.2ms
+image 1179/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_8_220.png: 384x640 (no detections), 98.5ms
+image 1180/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_8_240.png: 384x640 (no detections), 100.3ms
+image 1181/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_8_260.png: 384x640 (no detections), 99.6ms
+image 1182/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_8_280.png: 384x640 (no detections), 99.5ms
+image 1183/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_8_300.png: 384x640 (no detections), 101.9ms
+image 1184/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_8_80.png: 384x640 (no detections), 96.2ms
+image 1185/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_9_100.png: 384x640 (no detections), 96.4ms
+image 1186/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_9_120.png: 384x640 (no detections), 96.6ms
+image 1187/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_9_140.png: 384x640 (no detections), 97.1ms
+image 1188/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_9_160.png: 384x640 1 knife, 94.6ms
+image 1189/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_9_180.png: 384x640 (no detections), 98.6ms
+image 1190/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_9_200.png: 384x640 (no detections), 96.4ms
+image 1191/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_9_220.png: 384x640 (no detections), 96.3ms
+image 1192/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/normal_9_80.png: 384x640 (no detections), 100.9ms
+image 1193/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/pexels-pat-whelen-5738706_15fps_100.png: 384x640 (no detections), 100.8ms
+image 1194/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/pexels-pat-whelen-5738706_15fps_80.png: 384x640 (no detections), 99.9ms
+image 1195/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/pexels-vlada-karpovich-8045821_15fps_100.png: 640x384 (no detections), 101.3ms
+image 1196/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/pexels-vlada-karpovich-8045821_15fps_120.png: 640x384 (no detections), 99.0ms
+image 1197/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/pexels-vlada-karpovich-8045821_15fps_140.png: 640x384 (no detections), 95.7ms
+image 1198/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/pexels-vlada-karpovich-8045821_15fps_160.png: 640x384 (no detections), 103.3ms
+image 1199/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/pexels-vlada-karpovich-8045821_15fps_80.png: 640x384 (no detections), 100.6ms
+image 1200/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/threat 3_200.png: 384x640 (no detections), 98.3ms
+image 1201/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/threat_5_80.png: 384x640 1 gun, 99.1ms
+image 1202/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback (5)_100.png: 384x640 (no detections), 100.3ms
+image 1203/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback (5)_120.png: 384x640 (no detections), 101.9ms
+image 1204/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback (5)_140.png: 384x640 (no detections), 98.2ms
+image 1205/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback (5)_160.png: 384x640 2 guns, 100.5ms
+image 1206/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback (5)_180.png: 384x640 (no detections), 100.2ms
+image 1207/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback (5)_200.png: 384x640 1 knife, 96.9ms
+image 1208/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback (5)_220.png: 384x640 (no detections), 101.3ms
+image 1209/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback (5)_240.png: 384x640 (no detections), 100.4ms
+image 1210/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback (5)_260.png: 384x640 (no detections), 103.2ms
+image 1211/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback (5)_280.png: 384x640 (no detections), 99.1ms
+image 1212/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback (5)_300.png: 384x640 2 guns, 99.6ms
+image 1213/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback (5)_320.png: 384x640 1 gun, 101.2ms
+image 1214/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback (5)_80.png: 384x640 1 gun, 102.9ms
+image 1215/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback_100.png: 384x640 (no detections), 97.7ms
+image 1216/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback_120.png: 384x640 (no detections), 101.4ms
+image 1217/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback_140.png: 384x640 (no detections), 103.0ms
+image 1218/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback_160.png: 384x640 2 guns, 100.1ms
+image 1219/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback_180.png: 384x640 (no detections), 105.5ms
+image 1220/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback_200.png: 384x640 1 knife, 102.2ms
+image 1221/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback_220.png: 384x640 (no detections), 103.4ms
+image 1222/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback_240.png: 384x640 (no detections), 108.0ms
+image 1223/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback_260.png: 384x640 (no detections), 99.1ms
+image 1224/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback_280.png: 384x640 (no detections), 99.5ms
+image 1225/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback_300.png: 384x640 2 guns, 113.4ms
+image 1226/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback_320.png: 384x640 1 gun, 105.1ms
+image 1227/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m33s-videoplayback_80.png: 384x640 1 gun, 111.9ms
+image 1228/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_100.png: 384x640 (no detections), 112.0ms
+image 1229/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_120.png: 384x640 (no detections), 108.7ms
+image 1230/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_140.png: 384x640 (no detections), 111.8ms
+image 1231/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_160.png: 384x640 1 gun, 110.2ms
+image 1232/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_180.png: 384x640 1 gun, 113.8ms
+image 1233/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_200.png: 384x640 (no detections), 110.9ms
+image 1234/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_220.png: 384x640 (no detections), 122.3ms
+image 1235/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_240.png: 384x640 (no detections), 117.7ms
+image 1236/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_260.png: 384x640 2 guns, 108.7ms
+image 1237/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_280.png: 384x640 1 knife, 1 gun, 108.2ms
+image 1238/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_300.png: 384x640 (no detections), 116.8ms
+image 1239/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_320.png: 384x640 (no detections), 118.5ms
+image 1240/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_340.png: 384x640 (no detections), 111.8ms
+image 1241/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_360.png: 384x640 (no detections), 115.9ms
+image 1242/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_380.png: 384x640 (no detections), 108.0ms
+image 1243/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_400.png: 384x640 (no detections), 112.3ms
+image 1244/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_420.png: 384x640 (no detections), 110.9ms
+image 1245/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_440.png: 384x640 (no detections), 113.8ms
+image 1246/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_460.png: 384x640 (no detections), 111.6ms
+image 1247/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_480.png: 384x640 (no detections), 112.1ms
+image 1248/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_500.png: 384x640 (no detections), 110.1ms
+image 1249/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_520.png: 384x640 1 knife, 1 gun, 110.5ms
+image 1250/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_540.png: 384x640 (no detections), 111.3ms
+image 1251/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_560.png: 384x640 1 gun, 113.4ms
+image 1252/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_580.png: 384x640 (no detections), 109.8ms
+image 1253/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h24m53s-videoplayback (5)_80.png: 384x640 (no detections), 113.6ms
+image 1254/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h30m14s-videoplayback (6)_100.png: 384x640 (no detections), 111.9ms
+image 1255/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h30m14s-videoplayback (6)_120.png: 384x640 (no detections), 113.5ms
+image 1256/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h30m14s-videoplayback (6)_140.png: 384x640 (no detections), 115.0ms
+image 1257/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h30m14s-videoplayback (6)_160.png: 384x640 (no detections), 112.2ms
+image 1258/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h30m14s-videoplayback (6)_180.png: 384x640 (no detections), 116.6ms
+image 1259/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h30m14s-videoplayback (6)_200.png: 384x640 (no detections), 110.5ms
+image 1260/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h30m14s-videoplayback (6)_220.png: 384x640 (no detections), 113.9ms
+image 1261/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h30m14s-videoplayback (6)_240.png: 384x640 (no detections), 111.5ms
+image 1262/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h30m14s-videoplayback (6)_260.png: 384x640 (no detections), 109.6ms
+image 1263/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h30m14s-videoplayback (6)_280.png: 384x640 (no detections), 112.3ms
+image 1264/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h30m14s-videoplayback (6)_300.png: 384x640 (no detections), 113.8ms
+image 1265/1265 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/norm/vlc-record-2022-09-04-23h30m14s-videoplayback (6)_80.png: 384x640 (no detections), 112.6ms
+Speed: 1.8ms preprocess, 102.1ms inference, 0.4ms postprocess per image at shape (1, 3, 384, 640)
+Results saved to [1mruns/detect/train13[0m

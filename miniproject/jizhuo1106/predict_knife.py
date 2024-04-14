@@ -1,8 +1,8 @@
 #from ultralytics.utils import ASSETS
 from ultralytics.models.yolo.detect import DetectionPredictor
 
-args = dict(model='D:\\mini_project\\datasets\\runs\\detect\\train6\\weights\\best.pt', 
-            source="D:\\mini_project\\datasets\\test\\knife")
+args = dict(model='/Users/tianze/cs4243_lab/miniproject/jizhuo1105/runs/detect/train3/weights/best.pt',
+            source="/Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife")
 predictor = DetectionPredictor(overrides=args)
 predictor.predict_cli()
 

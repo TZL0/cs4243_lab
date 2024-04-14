@@ -1,0 +1,132 @@
+
+Ultralytics YOLOv8.0.203 🚀 Python-3.10.9 torch-2.1.0 CPU (Apple M1)
+Model summary (fused): 168 layers, 11126358 parameters, 0 gradients, 28.4 GFLOPs
+image 1/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carry4(TAN YING HUI)_100.png: 384x640 1 gun, 74.9ms
+image 2/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_1000.png: 384x640 1 gun, 70.5ms
+image 3/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_1020.png: 384x640 1 gun, 71.5ms
+image 4/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_1080.png: 384x640 1 gun, 71.1ms
+image 5/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_1100.png: 384x640 (no detections), 70.6ms
+image 6/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_1120.png: 384x640 1 gun, 72.1ms
+image 7/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_580.png: 384x640 1 gun, 71.3ms
+image 8/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_640.png: 384x640 (no detections), 71.8ms
+image 9/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_660.png: 384x640 1 gun, 71.4ms
+image 10/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_680.png: 384x640 (no detections), 72.9ms
+image 11/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_700.png: 384x640 (no detections), 72.0ms
+image 12/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_740.png: 384x640 1 gun, 72.0ms
+image 13/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_760(1).png: 384x640 (no detections), 73.4ms
+image 14/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_760.png: 384x640 (no detections), 72.3ms
+image 15/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_800(1).png: 384x640 1 gun, 71.2ms
+image 16/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_800.png: 384x640 1 gun, 74.1ms
+image 17/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_820(1).png: 384x640 1 gun, 71.1ms
+image 18/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_820.png: 384x640 1 gun, 70.2ms
+image 19/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_840(1).png: 384x640 (no detections), 71.5ms
+image 20/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_840.png: 384x640 (no detections), 72.1ms
+image 21/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_880(1).png: 384x640 1 gun, 72.3ms
+image 22/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_880.png: 384x640 1 gun, 71.7ms
+image 23/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_920(1).png: 384x640 (no detections), 70.7ms
+image 24/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_920.png: 384x640 (no detections), 72.3ms
+image 25/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_960(1).png: 384x640 (no detections), 72.9ms
+image 26/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_960.png: 384x640 (no detections), 73.0ms
+image 27/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_980(1).png: 384x640 1 gun, 73.1ms
+image 28/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/carrying3(ANTHONY LIE)_980.png: 384x640 1 gun, 73.6ms
+image 29/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_120.png: 384x640 (no detections), 72.0ms
+image 30/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_140.png: 384x640 (no detections), 71.9ms
+image 31/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_180.png: 384x640 (no detections), 72.7ms
+image 32/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_220.png: 384x640 (no detections), 73.6ms
+image 33/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_240.png: 384x640 (no detections), 72.8ms
+image 34/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_260.png: 384x640 (no detections), 71.5ms
+image 35/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_300.png: 384x640 (no detections), 71.7ms
+image 36/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_4961_140.png: 384x640 (no detections), 75.3ms
+image 37/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_4961_160.png: 384x640 (no detections), 73.0ms
+image 38/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_4961_320.png: 384x640 (no detections), 73.2ms
+image 39/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_4961_340.png: 384x640 (no detections), 75.9ms
+image 40/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_4961_360.png: 384x640 (no detections), 73.6ms
+image 41/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_4961_400.png: 384x640 (no detections), 75.4ms
+image 42/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_4961_480.png: 384x640 (no detections), 74.8ms
+image 43/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_4961_500.png: 384x640 (no detections), 75.7ms
+image 44/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_4961_520.png: 384x640 (no detections), 76.2ms
+image 45/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_4961_80.png: 384x640 1 gun, 74.1ms
+image 46/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_9623_100.png: 384x640 (no detections), 74.4ms
+image 47/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_9623_120.png: 384x640 (no detections), 77.6ms
+image 48/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_9623_140.png: 384x640 1 knife, 74.2ms
+image 49/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_9623_160.png: 384x640 (no detections), 75.9ms
+image 50/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_9623_180.png: 384x640 (no detections), 75.1ms
+image 51/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_9623_200.png: 384x640 (no detections), 74.4ms
+image 52/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_9623_220.png: 384x640 (no detections), 74.6ms
+image 53/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_9623_240.png: 384x640 (no detections), 75.6ms
+image 54/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_9623_260.png: 384x640 (no detections), 76.9ms
+image 55/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_9623_280.png: 384x640 (no detections), 77.7ms
+image 56/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/e0426326_20220901_threat_9623_80.png: 384x640 (no detections), 73.8ms
+image 57/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/largeknifec (1)_100.png: 384x640 3 knifes, 75.3ms
+image 58/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/largeknifec (1)_120.png: 384x640 1 knife, 75.8ms
+image 59/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/largeknifec (1)_140.png: 384x640 (no detections), 77.9ms
+image 60/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/largeknifec (1)_160.png: 384x640 (no detections), 75.2ms
+image 61/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/largeknifec (1)_80.png: 384x640 1 knife, 75.5ms
+image 62/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/largeknifet (1)_100.png: 384x640 (no detections), 76.3ms
+image 63/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/largeknifet (1)_120.png: 384x640 (no detections), 75.9ms
+image 64/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/largeknifet (1)_140.png: 384x640 (no detections), 75.2ms
+image 65/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/largeknifet (1)_160.png: 384x640 (no detections), 76.4ms
+image 66/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/largeknifet (1)_80.png: 384x640 1 knife, 75.4ms
+image 67/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/smallknifec (1)_100.png: 384x640 (no detections), 77.1ms
+image 68/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/smallknifec (1)_120.png: 384x640 (no detections), 75.7ms
+image 69/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/smallknifec (1)_160.png: 384x640 1 knife, 76.9ms
+image 70/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/smallknifec (1)_80.png: 384x640 1 knife, 76.0ms
+image 71/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/smallknifet (1)_100.png: 384x640 (no detections), 76.0ms
+image 72/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/smallknifet (1)_120.png: 384x640 (no detections), 74.4ms
+image 73/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/smallknifet (1)_140.png: 384x640 (no detections), 74.4ms
+image 74/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/smallknifet (1)_160.png: 384x640 (no detections), 74.4ms
+image 75/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat 3_100.png: 384x640 (no detections), 74.7ms
+image 76/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat 3_120.png: 384x640 (no detections), 72.7ms
+image 77/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat 3_160.png: 384x640 (no detections), 74.2ms
+image 78/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat 3_220.png: 384x640 (no detections), 72.5ms
+image 79/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat 3_240.png: 384x640 (no detections), 71.4ms
+image 80/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat 3_280.png: 384x640 (no detections), 73.0ms
+image 81/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat 3_300.png: 384x640 (no detections), 72.8ms
+image 82/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat 3_320.png: 384x640 (no detections), 73.2ms
+image 83/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat 3_80.png: 384x640 (no detections), 73.4ms
+image 84/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat 7_100.png: 384x640 2 guns, 74.0ms
+image 85/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat 7_120.png: 384x640 2 guns, 73.1ms
+image 86/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat 7_140.png: 384x640 (no detections), 74.2ms
+image 87/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat 7_160.png: 384x640 (no detections), 75.5ms
+image 88/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat 7_80.png: 384x640 (no detections), 74.1ms
+image 89/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat2(Qin Guorui)_100.png: 384x640 (no detections), 74.1ms
+image 90/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat2(Qin Guorui)_140.png: 384x640 1 knife, 71.1ms
+image 91/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat2(Qin Guorui)_180.png: 384x640 (no detections), 74.6ms
+image 92/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat5(TAN YING HUI)_100.png: 384x640 (no detections), 74.9ms
+image 93/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat5(TAN YING HUI)_120.png: 384x640 (no detections), 76.5ms
+image 94/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat5(TAN YING HUI)_160.png: 384x640 (no detections), 74.2ms
+image 95/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat5(TAN YING HUI)_180.png: 384x640 (no detections), 76.3ms
+image 96/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat5(TAN YING HUI)_220.png: 384x640 (no detections), 75.6ms
+image 97/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat5(TAN YING HUI)_240.png: 384x640 (no detections), 74.9ms
+image 98/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat5(TAN YING HUI)_260.png: 384x640 (no detections), 75.7ms
+image 99/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat5(TAN YING HUI)_280.png: 384x640 (no detections), 73.3ms
+image 100/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat5(TAN YING HUI)_320.png: 384x640 (no detections), 74.9ms
+image 101/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat5(TAN YING HUI)_340.png: 384x640 (no detections), 88.6ms
+image 102/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat5(TAN YING HUI)_80.png: 384x640 (no detections), 75.3ms
+image 103/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat6(ANTHONY LIE)_100.png: 384x640 (no detections), 71.4ms
+image 104/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat6(ANTHONY LIE)_120.png: 384x640 (no detections), 68.7ms
+image 105/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat6(ANTHONY LIE)_160.png: 384x640 (no detections), 74.8ms
+image 106/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat6(ANTHONY LIE)_220.png: 384x640 (no detections), 72.0ms
+image 107/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat6(ANTHONY LIE)_240.png: 384x640 (no detections), 74.5ms
+image 108/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat6(ANTHONY LIE)_280.png: 384x640 (no detections), 73.7ms
+image 109/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat6(ANTHONY LIE)_300.png: 384x640 (no detections), 74.3ms
+image 110/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat6(ANTHONY LIE)_320.png: 384x640 (no detections), 72.7ms
+image 111/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat6(ANTHONY LIE)_80.png: 384x640 (no detections), 70.3ms
+image 112/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat_6_100.png: 384x640 1 knife, 74.3ms
+image 113/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat_6_120.png: 384x640 1 gun, 72.7ms
+image 114/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat_6_140.png: 384x640 1 gun, 75.4ms
+image 115/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat_6_160.png: 384x640 (no detections), 72.9ms
+image 116/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat_6_180.png: 384x640 (no detections), 71.1ms
+image 117/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat_6_200.png: 384x640 1 gun, 72.2ms
+image 118/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat_6_220.png: 384x640 2 guns, 71.8ms
+image 119/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat_6_240.png: 384x640 1 gun, 72.6ms
+image 120/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat_6_260.png: 384x640 1 knife, 77.5ms
+image 121/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat_6_280.png: 384x640 1 knife, 1 gun, 77.8ms
+image 122/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/threat_6_80.png: 384x640 (no detections), 76.2ms
+image 123/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/vertc (1)_100.png: 384x640 1 knife, 77.3ms
+image 124/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/vertc (1)_120.png: 384x640 1 knife, 78.0ms
+image 125/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/vertc (1)_140.png: 384x640 (no detections), 74.3ms
+image 126/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/vertc (1)_160.png: 384x640 (no detections), 73.0ms
+image 127/127 /Users/tianze/cs4243_lab/miniproject/jizhuo1105/datasets/test/knife/vertc (1)_80.png: 384x640 1 knife, 74.9ms
+Speed: 1.2ms preprocess, 74.0ms inference, 0.2ms postprocess per image at shape (1, 3, 384, 640)
+Results saved to [1mruns/detect/train12[0m
